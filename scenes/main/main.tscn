@@ -1,6 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://dmemhwlh2oy0d"]
+[gd_scene load_steps=9 format=3 uid="uid://dmemhwlh2oy0d"]
 
 [ext_resource type="PackedScene" uid="uid://c4lccs8l5darl" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player.tscn" id="1_3ua4h"]
+[ext_resource type="ArrayMesh" uid="uid://byyyl3kni6iuf" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/container_bathroom_A_blue.obj" id="3_bbqk4"]
+[ext_resource type="PackedScene" uid="uid://bhgnbll1ibpir" path="res://scenes/ghostly_item/GhostlyItem.tscn" id="4_jbdex"]
+[ext_resource type="PackedScene" uid="uid://b5j7hpj6df0q4" path="res://scenes/concrete_item/ConcreteItem.tscn" id="4_q7oh6"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_laoyy"]
 size = Vector3(9, 0.2, 9)
@@ -19,33 +22,46 @@ data = PackedVector3Array(-1, 0.25, 0.5, 1, 0.25, 0.5, -1, -0.25, 0.5, 1, 0.25, 
 [node name="Player" parent="." instance=ExtResource("1_3ua4h")]
 TiltThreshhold = 0.06
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="World" type="Node3D" parent="."]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="World"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.839055, 0)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World/StaticBody3D"]
 mesh = SubResource("BoxMesh_laoyy")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_e0xrg")
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.84489, -0.246735, -2.0486)
+[node name="StaticBody3D2" type="StaticBody3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.82894, -0.483216, -3.90049)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D2"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World/StaticBody3D2"]
 mesh = SubResource("BoxMesh_wx1k5")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D2"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/StaticBody3D2"]
 shape = SubResource("ConcavePolygonShape3D_eih5q")
 
-[node name="StaticBody3D3" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.04143, 0.659706, -2.0486)
+[node name="StaticBody3D3" type="StaticBody3D" parent="World"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.22652, 0.659706, -2.0486)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D3"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World/StaticBody3D3"]
 mesh = SubResource("BoxMesh_wx1k5")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/StaticBody3D3"]
 shape = SubResource("ConcavePolygonShape3D_eih5q")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(0.892893, -0.0273706, 0.449437, -0.441854, -0.245342, 0.862886, 0.0866483, -0.96905, -0.231158, 6.14594, 3.19912, 2.03063)
 shadow_enabled = true
+
+[node name="PlacementSpot" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.50353, 0)
+
+[node name="ConcreteItem" parent="." instance=ExtResource("4_q7oh6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.34123, -0.203426, -3.91963)
+item_mesh = ExtResource("3_bbqk4")
+
+[node name="GhostlyItem" parent="." instance=ExtResource("4_jbdex")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43382, -0.203426, -3.95976)
+item_mesh = ExtResource("3_bbqk4")

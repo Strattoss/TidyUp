@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhgnbll1ibpir"]
+
+[ext_resource type="Script" path="res://scenes/ghostly_item/ghostly_item.gd" id="1_nbx07"]
+
+[node name="GhostlyItem" type="StaticBody3D"]
+script = ExtResource("1_nbx07")
+
+[node name="ItemMesh" type="MeshInstance3D" parent="."]

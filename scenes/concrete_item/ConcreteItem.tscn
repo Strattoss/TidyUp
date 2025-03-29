@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5j7hpj6df0q4"]
+
+[ext_resource type="Script" path="res://scenes/concrete_item/concrete_item.gd" id="1_gnk18"]
+
+[node name="ConcreteItem" type="StaticBody3D"]
+script = ExtResource("1_gnk18")
+
+[node name="ItemMesh" type="MeshInstance3D" parent="."]
