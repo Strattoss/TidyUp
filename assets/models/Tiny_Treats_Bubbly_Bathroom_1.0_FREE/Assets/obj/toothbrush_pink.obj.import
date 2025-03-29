@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c50t6y067e6ql"
+path="res://.godot/imported/toothbrush_pink.obj-846a963367366e41c844b54beeecec99.mesh"
+
+[deps]
+
+files=["res://.godot/imported/toothbrush_pink.obj-846a963367366e41c844b54beeecec99.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/toothbrush_pink.obj"
+dest_files=["res://.godot/imported/toothbrush_pink.obj-846a963367366e41c844b54beeecec99.mesh", "res://.godot/imported/toothbrush_pink.obj-846a963367366e41c844b54beeecec99.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

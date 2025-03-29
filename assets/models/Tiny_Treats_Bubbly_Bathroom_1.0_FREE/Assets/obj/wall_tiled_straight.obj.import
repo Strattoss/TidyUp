@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djhc4tbn5yjx6"
+path="res://.godot/imported/wall_tiled_straight.obj-0a146f6eb3aef4e06a50dfde4a5e1e0e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_tiled_straight.obj-0a146f6eb3aef4e06a50dfde4a5e1e0e.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/wall_tiled_straight.obj"
+dest_files=["res://.godot/imported/wall_tiled_straight.obj-0a146f6eb3aef4e06a50dfde4a5e1e0e.mesh", "res://.godot/imported/wall_tiled_straight.obj-0a146f6eb3aef4e06a50dfde4a5e1e0e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

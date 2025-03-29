@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cohsk0xqubcjy"
+path="res://.godot/imported/mirror.obj-4883a4f177a7f277fb479bfe9ac0b044.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mirror.obj-4883a4f177a7f277fb479bfe9ac0b044.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/mirror.obj"
+dest_files=["res://.godot/imported/mirror.obj-4883a4f177a7f277fb479bfe9ac0b044.mesh", "res://.godot/imported/mirror.obj-4883a4f177a7f277fb479bfe9ac0b044.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
