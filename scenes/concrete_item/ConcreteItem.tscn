@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b5j7hpj6df0q4"]
+[gd_scene load_steps=4 format=3 uid="uid://b5j7hpj6df0q4"]
 
 [ext_resource type="Script" path="res://scenes/concrete_item/concrete_item.gd" id="1_gnk18"]
+[ext_resource type="Script" path="res://scenes/concrete_item/concrete_item_mesh.gd" id="2_cfvi2"]
 
 [sub_resource type="TextMesh" id="TextMesh_h4g4g"]
 text = "|
@@ -10,7 +11,8 @@ v
 [node name="ConcreteItem" type="StaticBody3D"]
 script = ExtResource("1_gnk18")
 
-[node name="ItemMesh" type="MeshInstance3D" parent="."]
+[node name="ConcreteItemMesh" type="MeshInstance3D" parent="."]
+script = ExtResource("2_cfvi2")
 
 [node name="Arrow" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02721, 0)
