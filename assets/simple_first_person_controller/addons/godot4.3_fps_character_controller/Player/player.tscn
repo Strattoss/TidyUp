@@ -56,10 +56,10 @@ grow_vertical = 2
 
 [node name="InteractLabel" type="RichTextLabel" parent="UserInterface/InteracrLabelHolder"]
 layout_mode = 2
-offset_left = 458.0
-offset_top = 911.0
-offset_right = 1552.0
-offset_bottom = 1038.0
+offset_left = 52.0
+offset_top = 342.0
+offset_right = 970.0
+offset_bottom = 469.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_fonts/normal_font = ExtResource("4_hqw2h")

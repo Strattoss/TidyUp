@@ -7,26 +7,26 @@ func _physics_process(delta: float) -> void:
 
 	if is_colliding():
 		var collider = get_collider()
-		
-		if collider is Interactable:
-			if collider.prompt_action == "interact":
+		if collider.get_parent().get_parent().has_node("Interactable"):
+			var interactable = collider.get_parent().get_parent().get_node("Interactable")
+			if interactable.prompt_action == "interact":
 				# Prompt Logic
-				if Prompt.text == collider.get_prompt()+ " ["+collider.get_key()+"]":
+				if Prompt.text == interactable.get_prompt()+ " ["+interactable.get_key()+"]":
 					pass
 				else:
-					Prompt.text = collider.get_prompt()+ " ["+collider.get_key()+"]"
+					Prompt.text = interactable.get_prompt()+ " ["+interactable.get_key()+"]"
 				# Key Pressed Logic
-				if collider._hasDialogue:
-					curr_dialogue = collider.dialouge
-					if Input.is_action_just_pressed(collider.prompt_action):
-						collider.run_dialogue()
+				if interactable._hasDialogue:
+					curr_dialogue = interactable.dialouge
+					if Input.is_action_just_pressed(interactable.prompt_action):
+						interactable.run_dialogue()
 
-				elif Input.is_action_just_pressed(collider.prompt_action):
-					collider.interact(owner)
+				elif Input.is_action_just_pressed(interactable.prompt_action):
+					interactable.interact(owner)
 				
 
 
 			else:
-				Prompt.text = collider.get_prompt()
+				Prompt.text = interactable.get_prompt()
 	else:
 		Prompt.text = ""

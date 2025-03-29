@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://b5j7hpj6df0q4"]
+[gd_scene load_steps=5 format=3 uid="uid://b5j7hpj6df0q4"]
 
 [ext_resource type="Script" path="res://scenes/concrete_item/concrete_item.gd" id="1_gnk18"]
 [ext_resource type="Script" path="res://scenes/concrete_item/concrete_item_mesh.gd" id="2_cfvi2"]
+[ext_resource type="Script" path="res://scenes/concrete_item/interactable_concrete_item.gd" id="3_ye2uh"]
 
 [sub_resource type="TextMesh" id="TextMesh_h4g4g"]
 text = "|
@@ -18,3 +19,6 @@ script = ExtResource("2_cfvi2")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.02721, 0)
 mesh = SubResource("TextMesh_h4g4g")
 skeleton = NodePath("")
+
+[node name="Interactable" type="Node" parent="."]
+script = ExtResource("3_ye2uh")
