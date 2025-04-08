@@ -1,9 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://dmemhwlh2oy0d"]
+[gd_scene load_steps=11 format=3 uid="uid://dmemhwlh2oy0d"]
 
 [ext_resource type="PackedScene" uid="uid://c4lccs8l5darl" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player.tscn" id="1_3ua4h"]
+[ext_resource type="PackedScene" uid="uid://h6sxo70bavrg" path="res://scenes/placement_spot/placement_spot.tscn" id="2_kc82s"]
 [ext_resource type="ArrayMesh" uid="uid://byyyl3kni6iuf" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/container_bathroom_A_blue.obj" id="3_bbqk4"]
 [ext_resource type="PackedScene" uid="uid://bhgnbll1ibpir" path="res://scenes/ghostly_item/GhostlyItem.tscn" id="4_jbdex"]
 [ext_resource type="PackedScene" uid="uid://b5j7hpj6df0q4" path="res://scenes/concrete_item/ConcreteItem.tscn" id="4_q7oh6"]
+[ext_resource type="ArrayMesh" uid="uid://5t1hi5ebrkg" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/ducky.obj" id="5_pfhte"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_laoyy"]
 size = Vector3(9, 0.2, 9)
@@ -56,8 +58,7 @@ transform = Transform3D(0.892893, -0.0273706, 0.449437, -0.441854, -0.245342, 0.
 shadow_enabled = true
 metadata/_edit_lock_ = true
 
-[node name="PlacementSpot" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.50353, 0)
+[node name="PlacementSpot" parent="." instance=ExtResource("2_kc82s")]
 
 [node name="ConcreteItem" parent="." instance=ExtResource("4_q7oh6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.34123, -0.203426, -3.91963)
@@ -66,3 +67,11 @@ item_mesh = ExtResource("3_bbqk4")
 [node name="GhostlyItem" parent="." instance=ExtResource("4_jbdex")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43382, -0.203426, -3.95976)
 item_mesh = ExtResource("3_bbqk4")
+
+[node name="ConcreteItem2" parent="." instance=ExtResource("4_q7oh6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.257401, -3.47036)
+item_mesh = ExtResource("5_pfhte")
+
+[node name="GhostlyItem2" parent="." instance=ExtResource("4_jbdex")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.723099, 0.257401, -3.47036)
+item_mesh = ExtResource("5_pfhte")

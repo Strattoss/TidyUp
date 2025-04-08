@@ -12,4 +12,7 @@ func get_key():
 	return prompt_key
 
 func interact(player):
-	print("Interacted with ", get_parent().name)
+	print("Move object ", get_parent().name, " to the placement spot")
+	var placement_spot = get_tree().get_root().get_node("Main").get_node("PlacementSpot")
+	placement_spot.get_node("PlacementService").store_item(get_parent())
+	
