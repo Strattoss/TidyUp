@@ -11,9 +11,11 @@ config_version=5
 [application]
 
 config/name="TidyUp"
+config/version="0.1"
 run/main_scene="res://scenes/main/main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://icons/icon.png"
+config/windows_native_icon="res://icons/ico2.ico"
 
 [display]
 

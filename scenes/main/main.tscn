@@ -3397,7 +3397,7 @@ skeleton = NodePath("../../../..")
 shape = SubResource("ConvexPolygonShape3D_4peiy")
 
 [node name="ChairA2" type="MeshInstance3D" parent="World/Livingroom/Furniture"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.460657, 0, 8.36367)
+transform = Transform3D(0.952794, 0, -0.303617, 0, 1, 0, 0.303617, 0, 0.952794, -0.0753727, 0, 8.19012)
 mesh = ExtResource("72_18024")
 skeleton = NodePath("../../../..")
 
