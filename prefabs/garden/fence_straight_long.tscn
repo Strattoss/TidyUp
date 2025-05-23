@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://du4g184ojdleh"]
+
+[ext_resource type="ArrayMesh" uid="uid://05yyetxbs5j0" path="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/fence_straight_long.obj" id="1_4baud"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e5kf5"]
+size = Vector3(2.49414, 1.27539, 0.299805)
+
+[node name="FenceStraightLong" type="MeshInstance3D"]
+mesh = ExtResource("1_4baud")
+skeleton = NodePath("../../../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000915527, 0.642471, 0.00305176)
+shape = SubResource("BoxShape3D_e5kf5")

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://csmcqnrtx614k"]
+
+[ext_resource type="ArrayMesh" uid="uid://djhc4tbn5yjx6" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/wall_tiled_straight.obj" id="1_2wtq7"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_gnjbd"]
+points = PackedVector3Array(-1, 0, -0.24942, 1, 0, -0.24942, -1, 0, 0.200658, -1, 4, -0.24942, 1, 0, 0.200658, 1, 4, -0.24942, -0.936374, 0.0634299, 0.249405, -1, 1.55991, 0.25058, -1, 4, 0.25058, 0.936179, 0.0634299, 0.249405, 1, 1.55991, 0.250531, 1, 4, 0.250531)
+
+[node name="WallTiledStraight" type="MeshInstance3D"]
+mesh = ExtResource("1_2wtq7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_gnjbd")

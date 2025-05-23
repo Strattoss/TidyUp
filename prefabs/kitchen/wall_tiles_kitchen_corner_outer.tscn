@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://opfi2qiq66em"]
+
+[ext_resource type="ArrayMesh" uid="uid://h1mflyt5mf5y" path="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_tiles_kitchen_corner_outer.obj" id="1_suv6u"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_jg1fq"]
+points = PackedVector3Array(2.00337, 4.03095, 0.289058, -0.237698, 0.0483932, 0.340172, 2.00337, -0.0309505, -0.282346, -0.282346, 4.03095, -0.282346, -0.250379, 3.97414, 0.343695, 2.00337, 4.03095, -0.282346, 2.00337, -0.0309505, 0.289058, -0.218804, -0.0309505, -0.282346, 0.289083, -0.0309505, 0.352575, 0.289083, 4.03095, 0.352575)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_njja2"]
+points = PackedVector3Array(-0.28229, -0.0309505, 0.352575, 0.289027, 4.03095, 2.00337, -0.28229, 4.03095, 2.00337, 0.289027, -0.0309505, 2.00337, 0.289027, 4.03095, 0.352575, -0.28229, 4.03095, 0.352575, -0.28229, -0.0309505, 2.00337, 0.289027, -0.0309505, 0.352575)
+
+[node name="WallTilesKitchenCornerOuter" type="MeshInstance3D"]
+mesh = ExtResource("1_suv6u")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_jg1fq")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_njja2")

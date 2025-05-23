@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://bxe8o1d1vvr8k"]
+
+[ext_resource type="ArrayMesh" uid="uid://ee3pfgr7lxkg" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/wall_panelled_doorway_blue_wall_panelled_door_blue.obj" id="1_l1d6f"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_k5jso"]
+points = PackedVector3Array(-0.822222, 1.26667, -0.125556, 0.822222, 2.82192, 0.141111, 0.822222, 2.82192, -0.125556, -0.822222, 2.82192, 0.141111, 0.822222, 1.26667, 0.141111, 0.822222, 1.26667, -0.125556, -0.822222, 2.82192, -0.125556, -0.822222, 1.26667, 0.141111)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_tekjt"]
+points = PackedVector3Array(-0.822222, -0.0222223, -0.125556, 0.822222, 1, 0.141111, 0.822222, 1, -0.125556, -0.822222, 1, 0.141111, 0.822222, -0.0222223, 0.141111, 0.822222, -0.0222223, -0.125556, -0.822222, 1, -0.125556, -0.822222, -0.0222223, 0.141111)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_rr4n8"]
+points = PackedVector3Array(0.288776, 1.04445, -0.392144, 0.466645, 1, -0.169948, -0.822222, 1, 0.141033, -0.822222, 1.26667, -0.125477, 0.822222, 1.26667, -0.125477, -0.822222, 1.26667, 0.141033, 0.644353, 1.04445, 0.407699, -0.822222, 1, -0.125477, 0.644353, 1.22221, -0.392144, 0.822222, 1, -0.125477, 0.822222, 1.26667, 0.141033, 0.288776, 1.17776, 0.407699, 0.822222, 1, 0.141033, 0.68878, 1.04445, -0.392144, 0.644353, 1.22221, 0.363229, 0.288776, 1.22221, -0.392144, 0.288776, 1.04445, 0.407699, 0.511072, 1.26667, -0.169948, 0.68878, 1, 0.185503, 0.511072, 1.26667, 0.185503, 0.288776, 1.22221, 0.363229, 0.644353, 1.17776, 0.407699, 0.68878, 1.04445, 0.363229, 0.68878, 1.26667, -0.169948, 0.511072, 1, 0.185503, 0.68878, 1.26667, 0.185503)
+
+[node name="WallPanelledDoorwayBlueWallPanelledDoorBlue" type="MeshInstance3D"]
+mesh = ExtResource("1_l1d6f")
+skeleton = NodePath("../../../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_k5jso")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_tekjt")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_rr4n8")

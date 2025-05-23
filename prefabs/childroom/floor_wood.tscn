@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://rrjyy5nymnw2"]
+
+[ext_resource type="ArrayMesh" uid="uid://eoplwyoawl2k" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/floor_wood.obj" id="1_1koit"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_c504o"]
+points = PackedVector3Array(-1, -0.5, -1, -1, -0.5, 1, -1, -0.0500196, -1, 1, -0.5, -1, -1, -0.0500196, 1, 1, -0.5, 1, -1, 0, -0.950078, 1, -0.0500196, -1, -0.950078, 0, 0.949883, -1, 0, 0.449883, 1, -0.0500196, 1, 1, 0, -0.950078, 0.949883, 0, 0.949883, 1, 0, 0.449883)
+
+[node name="FloorWood" type="MeshInstance3D"]
+mesh = ExtResource("1_1koit")
+skeleton = NodePath("../../../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_c504o")

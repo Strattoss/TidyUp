@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://bb8imhpvf7btm"]
+
+[ext_resource type="ArrayMesh" uid="uid://biqqdeosjdchm" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/wall_panelled_doorway_blue.obj" id="1_yr3jj"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2kl2u"]
+points = PackedVector3Array(-1.0317, -0.0314789, -0.1547, -0.777803, 2.69841, 0.162636, -1.0317, 2.69841, 0.162636, -0.777803, -0.0314789, 0.162636, -0.777803, 2.69841, -0.1547, -1.0317, 2.69841, -0.1547, -1.0317, -0.0314789, 0.162636, -0.777803, -0.0314789, -0.1547)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_dk4hd"]
+points = PackedVector3Array(-0.0794583, 4.03149, 0.289627, -1, 2.74285, -0.144139, -0.993771, 2.75157, 0.15, -1.03165, 4.03149, -0.28169, -0.134281, 3, -0.248797, -1.03165, 4.03149, 0.289627, -0.0794583, 2.9525, 0.289627, -0.0794583, 4.03149, -0.28169, -1.03165, 2.9525, 0.289627, -0.109388, 2.8, -0.144713, -0.976831, 3, -0.248797, -0.777641, 2.69854, 0.162624, -0.777641, 2.69854, -0.154687, -0.11734, 2.81007, 0.15)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_hr7ag"]
+points = PackedVector3Array(1.06349, 2.69841, 0.162636, 0.746032, -0.0314789, -0.1547, 0.746032, -0.0314789, 0.162636, 0.746032, 2.69841, -0.1547, 1.06349, -0.0314789, -0.1547, 1.06349, -0.0314789, 0.162636, 0.746032, 2.69841, 0.162636, 1.06349, 2.69841, -0.1547)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ssabb"]
+points = PackedVector3Array(1.06338, 4.03149, 0.289627, -0.0433374, 2.8, -0.144713, -0.0337949, 2.81007, 0.15, 1.06338, 2.69854, -0.154687, -0.0792533, 4.03149, -0.28169, 1.06338, 4.03149, -0.28169, -0.0792533, 4.03149, 0.289627, 1.06338, 2.9525, 0.289627, -0.0792533, 2.9525, 0.289627, -0.0134665, 3, -0.248797, 0.745926, 2.69854, 0.162624, 0.997593, 3, -0.248797, 1.06338, 2.69854, 0.162624, 0.745926, 2.69854, -0.154687)
+
+[node name="WallPanelledDoorwayBlue" type="MeshInstance3D"]
+mesh = ExtResource("1_yr3jj")
+skeleton = NodePath("../../../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_2kl2u")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_dk4hd")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_hr7ag")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ssabb")

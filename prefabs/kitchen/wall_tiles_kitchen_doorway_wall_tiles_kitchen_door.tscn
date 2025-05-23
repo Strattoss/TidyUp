@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://cpbtfxp7bccft"]
+
+[ext_resource type="ArrayMesh" uid="uid://dduy61213osbc" path="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_tiles_kitchen_doorway_wall_tiles_kitchen_door.obj" id="1_fq6w1"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ald6n"]
+points = PackedVector3Array(-0.822222, 1.26667, -0.125556, 0.822222, 2.82192, 0.141111, 0.822222, 2.82192, -0.125556, -0.822222, 2.82192, 0.141111, 0.822222, 1.26667, 0.141111, 0.822222, 1.26667, -0.125556, -0.822222, 2.82192, -0.125556, -0.822222, 1.26667, 0.141111)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_1gh72"]
+points = PackedVector3Array(-0.822222, -0.0222223, -0.125556, 0.822222, 1, 0.141111, 0.822222, 1, -0.125556, -0.822222, 1, 0.141111, 0.822222, -0.0222223, 0.141111, 0.822222, -0.0222223, -0.125556, -0.822222, 1, -0.125556, -0.822222, -0.0222223, 0.141111)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_hopoc"]
+points = PackedVector3Array(0.288776, 1.04445, -0.392144, 0.466645, 1, -0.169948, -0.822222, 1, 0.141033, -0.822222, 1.26667, -0.125477, 0.822222, 1.26667, -0.125477, -0.822222, 1.26667, 0.141033, 0.644353, 1.04445, 0.407699, -0.822222, 1, -0.125477, 0.644353, 1.22221, -0.392144, 0.822222, 1, -0.125477, 0.822222, 1.26667, 0.141033, 0.288776, 1.17776, 0.407699, 0.822222, 1, 0.141033, 0.68878, 1.04445, -0.392144, 0.644353, 1.22221, 0.363229, 0.288776, 1.22221, -0.392144, 0.288776, 1.04445, 0.407699, 0.511072, 1.26667, -0.169948, 0.68878, 1, 0.185503, 0.511072, 1.26667, 0.185503, 0.288776, 1.22221, 0.363229, 0.644353, 1.17776, 0.407699, 0.68878, 1.04445, 0.363229, 0.68878, 1.26667, -0.169948, 0.511072, 1, 0.185503, 0.68878, 1.26667, 0.185503)
+
+[node name="WallTilesKitchenDoorwayWallTilesKitchenDoor" type="MeshInstance3D"]
+mesh = ExtResource("1_fq6w1")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ald6n")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_1gh72")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_hopoc")

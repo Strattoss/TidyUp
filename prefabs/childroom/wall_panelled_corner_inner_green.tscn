@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://cduqc1aule1u0"]
+
+[ext_resource type="ArrayMesh" uid="uid://dlarkioc5x0oi" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/wall_panelled_corner_inner_green.obj" id="1_dubqx"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ux1lc"]
+points = PackedVector3Array(0.4071, 0.0246858, -0.25, 0.289645, 4.03095, 2.00374, -0.25, 3.84632, 1.89988, 0.353156, -0.0309505, 2.00374, -0.25, 0.153681, -0.177433, 0.4071, 3.97531, -0.25, -0.25, 3.84632, -0.177433, -0.25, 0.153681, 1.89988, 0.453329, 1.43929, 0.3, 0.416667, 4.03095, 0.290018, 0.353156, 1.49256, 2.00374, 0.416667, -0.0309505, 0.353324)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6svot"]
+points = PackedVector3Array(2.00366, 4.03095, 0.289658, 0.496016, 0.172145, -0.25, 1.92431, 0.172145, -0.25, 0.416667, -0.0309505, 0.353175, 0.416667, 4.03095, -0.281746, 2.00366, -0.0309505, 0.353175, 2.00366, 4.03095, -0.281746, 0.416667, 4.03095, 0.289658, 0.3, 1.41795, 0.39985, 2.00366, 1.49256, 0.353175)
+
+[node name="WallPanelledCornerInnerGreen" type="MeshInstance3D"]
+mesh = ExtResource("1_dubqx")
+skeleton = NodePath("../../../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_ux1lc")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_6svot")

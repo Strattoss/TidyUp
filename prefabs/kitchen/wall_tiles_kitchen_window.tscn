@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bht5d8rc1ogm1"]
+
+[ext_resource type="ArrayMesh" uid="uid://citf1o1l6nsy3" path="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_tiles_kitchen_window.obj" id="1_gbl26"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_oftwb"]
+points = PackedVector3Array(-1, 0, -0.249214, -0.800117, 1.02467, -0.299194, 1, 0, -0.249214, -1, 0, 0.200786, -1, 4, -0.249214, 0.799922, 1.02467, -0.299194, -0.800117, 1.17463, -0.299194, 1, 0, 0.200786, 1, 4, -0.249214, -1, 0.0634299, 0.249416, -1, 4, 0.250767, 0.799922, 1.17463, -0.299194, 1, 0.0634299, 0.249416, 1, 4, 0.250767, -0.800117, 1.02467, 0.300806, -1, 2.15975, 0.250767, -0.800117, 1.17463, 0.300806, 0.799922, 1.02467, 0.300806, 1, 2.15975, 0.250767, 0.799922, 1.17463, 0.300806)
+
+[node name="WallTilesKitchenWindow" type="MeshInstance3D"]
+mesh = ExtResource("1_gbl26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_oftwb")
