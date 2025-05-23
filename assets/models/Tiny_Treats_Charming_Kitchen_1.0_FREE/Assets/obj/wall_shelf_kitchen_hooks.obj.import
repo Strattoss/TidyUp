@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://g5q5euwh0shy"
+path="res://.godot/imported/wall_shelf_kitchen_hooks.obj-057a6046d7ea5811e706a53e07d9c1d9.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_shelf_kitchen_hooks.obj-057a6046d7ea5811e706a53e07d9c1d9.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_shelf_kitchen_hooks.obj"
+dest_files=["res://.godot/imported/wall_shelf_kitchen_hooks.obj-057a6046d7ea5811e706a53e07d9c1d9.mesh", "res://.godot/imported/wall_shelf_kitchen_hooks.obj-057a6046d7ea5811e706a53e07d9c1d9.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

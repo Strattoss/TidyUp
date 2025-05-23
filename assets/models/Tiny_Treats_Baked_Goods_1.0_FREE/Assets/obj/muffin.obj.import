@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4c04fuuufuhe"
+path="res://.godot/imported/muffin.obj-0b1ed5424309cb47edde63bb8dae2c11.mesh"
+
+[deps]
+
+files=["res://.godot/imported/muffin.obj-0b1ed5424309cb47edde63bb8dae2c11.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/muffin.obj"
+dest_files=["res://.godot/imported/muffin.obj-0b1ed5424309cb47edde63bb8dae2c11.mesh", "res://.godot/imported/muffin.obj-0b1ed5424309cb47edde63bb8dae2c11.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

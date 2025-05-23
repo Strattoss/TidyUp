@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bgww4224jmel0"
+path="res://.godot/imported/cake_birthday_cut.obj-bd0370cdc99626280cdc52ef2a40f82d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cake_birthday_cut.obj-bd0370cdc99626280cdc52ef2a40f82d.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/cake_birthday_cut.obj"
+dest_files=["res://.godot/imported/cake_birthday_cut.obj-bd0370cdc99626280cdc52ef2a40f82d.mesh", "res://.godot/imported/cake_birthday_cut.obj-bd0370cdc99626280cdc52ef2a40f82d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

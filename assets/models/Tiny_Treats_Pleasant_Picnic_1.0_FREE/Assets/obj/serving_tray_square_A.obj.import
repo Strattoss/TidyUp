@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxabeunofhvbf"
+path="res://.godot/imported/serving_tray_square_A.obj-bd9d9fc439aa2bdb4d55b3ab20b809a5.mesh"
+
+[deps]
+
+files=["res://.godot/imported/serving_tray_square_A.obj-bd9d9fc439aa2bdb4d55b3ab20b809a5.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/serving_tray_square_A.obj"
+dest_files=["res://.godot/imported/serving_tray_square_A.obj-bd9d9fc439aa2bdb4d55b3ab20b809a5.mesh", "res://.godot/imported/serving_tray_square_A.obj-bd9d9fc439aa2bdb4d55b3ab20b809a5.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

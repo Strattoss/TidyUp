@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://by218oosrysp8"
+path="res://.godot/imported/blinds_kitchen.obj-ab543ed47a30545655744a5ed72c00ed.mesh"
+
+[deps]
+
+files=["res://.godot/imported/blinds_kitchen.obj-ab543ed47a30545655744a5ed72c00ed.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/blinds_kitchen.obj"
+dest_files=["res://.godot/imported/blinds_kitchen.obj-ab543ed47a30545655744a5ed72c00ed.mesh", "res://.godot/imported/blinds_kitchen.obj-ab543ed47a30545655744a5ed72c00ed.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://decd55dh71b3w"
+path="res://.godot/imported/stove_door.obj-9ea33234636ac50f91a423d354c7a0e6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/stove_door.obj-9ea33234636ac50f91a423d354c7a0e6.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/stove_door.obj"
+dest_files=["res://.godot/imported/stove_door.obj-9ea33234636ac50f91a423d354c7a0e6.mesh", "res://.godot/imported/stove_door.obj-9ea33234636ac50f91a423d354c7a0e6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

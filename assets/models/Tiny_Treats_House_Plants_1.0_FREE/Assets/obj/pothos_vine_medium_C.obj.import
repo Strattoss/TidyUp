@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bsv0myuol1bna"
+path="res://.godot/imported/pothos_vine_medium_C.obj-2262fd56d9dcb241cf7ac54a17521c4e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pothos_vine_medium_C.obj-2262fd56d9dcb241cf7ac54a17521c4e.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/pothos_vine_medium_C.obj"
+dest_files=["res://.godot/imported/pothos_vine_medium_C.obj-2262fd56d9dcb241cf7ac54a17521c4e.mesh", "res://.godot/imported/pothos_vine_medium_C.obj-2262fd56d9dcb241cf7ac54a17521c4e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cybvvp0wj33jh"
+path="res://.godot/imported/picnic_blanket_blue_folded.obj-bce5a39b9decd6ddc515570a2ea317c0.mesh"
+
+[deps]
+
+files=["res://.godot/imported/picnic_blanket_blue_folded.obj-bce5a39b9decd6ddc515570a2ea317c0.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/picnic_blanket_blue_folded.obj"
+dest_files=["res://.godot/imported/picnic_blanket_blue_folded.obj-bce5a39b9decd6ddc515570a2ea317c0.mesh", "res://.godot/imported/picnic_blanket_blue_folded.obj-bce5a39b9decd6ddc515570a2ea317c0.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

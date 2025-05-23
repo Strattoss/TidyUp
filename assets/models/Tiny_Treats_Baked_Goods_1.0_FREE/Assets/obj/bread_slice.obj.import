@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://drapsktg62yuv"
+path="res://.godot/imported/bread_slice.obj-24364433908f76a6d51a9f26d8515d03.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bread_slice.obj-24364433908f76a6d51a9f26d8515d03.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/bread_slice.obj"
+dest_files=["res://.godot/imported/bread_slice.obj-24364433908f76a6d51a9f26d8515d03.mesh", "res://.godot/imported/bread_slice.obj-24364433908f76a6d51a9f26d8515d03.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

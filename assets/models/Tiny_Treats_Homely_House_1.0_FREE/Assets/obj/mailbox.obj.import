@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://x14tu5mx8tjy"
+path="res://.godot/imported/mailbox.obj-c3c8f089e5b7e7305545507fecf6f7d8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mailbox.obj-c3c8f089e5b7e7305545507fecf6f7d8.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/mailbox.obj"
+dest_files=["res://.godot/imported/mailbox.obj-c3c8f089e5b7e7305545507fecf6f7d8.mesh", "res://.godot/imported/mailbox.obj-c3c8f089e5b7e7305545507fecf6f7d8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

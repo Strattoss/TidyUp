@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ch6untp2gw2vf"
+path="res://.godot/imported/countertop_counter_outer.obj-e6debbe1dd676e6194d18971182b6a6a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/countertop_counter_outer.obj-e6debbe1dd676e6194d18971182b6a6a.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/countertop_counter_outer.obj"
+dest_files=["res://.godot/imported/countertop_counter_outer.obj-e6debbe1dd676e6194d18971182b6a6a.mesh", "res://.godot/imported/countertop_counter_outer.obj-e6debbe1dd676e6194d18971182b6a6a.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

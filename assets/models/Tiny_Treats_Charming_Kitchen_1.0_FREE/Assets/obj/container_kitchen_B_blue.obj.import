@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://yn870qhu2gq1"
+path="res://.godot/imported/container_kitchen_B_blue.obj-0283742103d098c70ef761879d5b532d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/container_kitchen_B_blue.obj-0283742103d098c70ef761879d5b532d.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/container_kitchen_B_blue.obj"
+dest_files=["res://.godot/imported/container_kitchen_B_blue.obj-0283742103d098c70ef761879d5b532d.mesh", "res://.godot/imported/container_kitchen_B_blue.obj-0283742103d098c70ef761879d5b532d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

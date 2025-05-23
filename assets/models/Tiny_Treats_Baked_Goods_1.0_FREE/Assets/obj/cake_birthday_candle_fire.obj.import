@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cmotdj5t51hcu"
+path="res://.godot/imported/cake_birthday_candle_fire.obj-e51b5e01efb6eaec56dd939545cb44ba.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cake_birthday_candle_fire.obj-e51b5e01efb6eaec56dd939545cb44ba.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/cake_birthday_candle_fire.obj"
+dest_files=["res://.godot/imported/cake_birthday_candle_fire.obj-e51b5e01efb6eaec56dd939545cb44ba.mesh", "res://.godot/imported/cake_birthday_candle_fire.obj-e51b5e01efb6eaec56dd939545cb44ba.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

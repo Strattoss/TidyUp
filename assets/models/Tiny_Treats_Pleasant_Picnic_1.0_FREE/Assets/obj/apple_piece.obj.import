@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcyabxhvhi8fs"
+path="res://.godot/imported/apple_piece.obj-228b0491c617491d7ff05d905510c620.mesh"
+
+[deps]
+
+files=["res://.godot/imported/apple_piece.obj-228b0491c617491d7ff05d905510c620.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/apple_piece.obj"
+dest_files=["res://.godot/imported/apple_piece.obj-228b0491c617491d7ff05d905510c620.mesh", "res://.godot/imported/apple_piece.obj-228b0491c617491d7ff05d905510c620.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

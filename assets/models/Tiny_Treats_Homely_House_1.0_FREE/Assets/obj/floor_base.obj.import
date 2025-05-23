@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c8orb2u0ijrtt"
+path="res://.godot/imported/floor_base.obj-bdb088a66b64aaa64d2edf47b9d3eb53.mesh"
+
+[deps]
+
+files=["res://.godot/imported/floor_base.obj-bdb088a66b64aaa64d2edf47b9d3eb53.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/floor_base.obj"
+dest_files=["res://.godot/imported/floor_base.obj-bdb088a66b64aaa64d2edf47b9d3eb53.mesh", "res://.godot/imported/floor_base.obj-bdb088a66b64aaa64d2edf47b9d3eb53.mesh"]
+
+[params]
+
+generate_tangents=false
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

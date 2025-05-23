@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ccpwg1v8iq541"
+path="res://.godot/imported/plate.obj-7c92f0fe8c6e733ba48e4c22fdb5ed9f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/plate.obj-7c92f0fe8c6e733ba48e4c22fdb5ed9f.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/plate.obj"
+dest_files=["res://.godot/imported/plate.obj-7c92f0fe8c6e733ba48e4c22fdb5ed9f.mesh", "res://.godot/imported/plate.obj-7c92f0fe8c6e733ba48e4c22fdb5ed9f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

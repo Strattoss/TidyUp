@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dyjlgtls83b0f"
+path="res://.godot/imported/chair_C.obj-0c13646e61e3cd4d1ccf4ec0b4c1e71f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/chair_C.obj-0c13646e61e3cd4d1ccf4ec0b4c1e71f.mesh"]
+
+source_file="res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/chair_C.obj"
+dest_files=["res://.godot/imported/chair_C.obj-0c13646e61e3cd4d1ccf4ec0b4c1e71f.mesh", "res://.godot/imported/chair_C.obj-0c13646e61e3cd4d1ccf4ec0b4c1e71f.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

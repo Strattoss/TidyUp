@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cam8pjg3l5jwi"
+path="res://.godot/imported/donut.obj-11ebe367d0c4cc7220006e16f931a9f8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/donut.obj-11ebe367d0c4cc7220006e16f931a9f8.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/donut.obj"
+dest_files=["res://.godot/imported/donut.obj-11ebe367d0c4cc7220006e16f931a9f8.mesh", "res://.godot/imported/donut.obj-11ebe367d0c4cc7220006e16f931a9f8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

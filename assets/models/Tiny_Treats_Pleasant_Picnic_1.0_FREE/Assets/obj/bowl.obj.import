@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dv1axcothmmf5"
+path="res://.godot/imported/bowl.obj-54189f706cea70cdc851a7c0f53a817c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bowl.obj-54189f706cea70cdc851a7c0f53a817c.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/bowl.obj"
+dest_files=["res://.godot/imported/bowl.obj-54189f706cea70cdc851a7c0f53a817c.mesh", "res://.godot/imported/bowl.obj-54189f706cea70cdc851a7c0f53a817c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

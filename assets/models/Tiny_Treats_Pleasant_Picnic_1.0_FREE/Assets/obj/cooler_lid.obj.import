@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdvo0qwfrfmh0"
+path="res://.godot/imported/cooler_lid.obj-49bd97921651a596097131e0892cd585.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cooler_lid.obj-49bd97921651a596097131e0892cd585.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/cooler_lid.obj"
+dest_files=["res://.godot/imported/cooler_lid.obj-49bd97921651a596097131e0892cd585.mesh", "res://.godot/imported/cooler_lid.obj-49bd97921651a596097131e0892cd585.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

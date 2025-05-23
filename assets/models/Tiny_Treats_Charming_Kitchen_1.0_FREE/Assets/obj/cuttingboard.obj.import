@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dh3kancv6d3la"
+path="res://.godot/imported/cuttingboard.obj-1e39b2652ab4acfb1815c2f230d846ec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cuttingboard.obj-1e39b2652ab4acfb1815c2f230d846ec.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/cuttingboard.obj"
+dest_files=["res://.godot/imported/cuttingboard.obj-1e39b2652ab4acfb1815c2f230d846ec.mesh", "res://.godot/imported/cuttingboard.obj-1e39b2652ab4acfb1815c2f230d846ec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

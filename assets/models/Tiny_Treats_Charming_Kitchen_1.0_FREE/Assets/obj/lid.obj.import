@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dsw7ok15k7nce"
+path="res://.godot/imported/lid.obj-47fd0a3ed916b14812657e82975cf630.mesh"
+
+[deps]
+
+files=["res://.godot/imported/lid.obj-47fd0a3ed916b14812657e82975cf630.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/lid.obj"
+dest_files=["res://.godot/imported/lid.obj-47fd0a3ed916b14812657e82975cf630.mesh", "res://.godot/imported/lid.obj-47fd0a3ed916b14812657e82975cf630.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

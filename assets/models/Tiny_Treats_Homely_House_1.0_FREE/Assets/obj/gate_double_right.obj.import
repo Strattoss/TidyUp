@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dfpemc17d0nde"
+path="res://.godot/imported/gate_double_right.obj-225ea1b86f20d08f3a305b34d01b24c8.mesh"
+
+[deps]
+
+files=["res://.godot/imported/gate_double_right.obj-225ea1b86f20d08f3a305b34d01b24c8.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/gate_double_right.obj"
+dest_files=["res://.godot/imported/gate_double_right.obj-225ea1b86f20d08f3a305b34d01b24c8.mesh", "res://.godot/imported/gate_double_right.obj-225ea1b86f20d08f3a305b34d01b24c8.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

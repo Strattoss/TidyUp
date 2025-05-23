@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://lgecou6un2ug"
+path="res://.godot/imported/picnic_basket_square.obj-3c71513e723c04221ab2c558a247921e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/picnic_basket_square.obj-3c71513e723c04221ab2c558a247921e.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/picnic_basket_square.obj"
+dest_files=["res://.godot/imported/picnic_basket_square.obj-3c71513e723c04221ab2c558a247921e.mesh", "res://.godot/imported/picnic_basket_square.obj-3c71513e723c04221ab2c558a247921e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

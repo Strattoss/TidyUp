@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dcupw2mhi4m07"
+path="res://.godot/imported/pie_apple_slice.obj-1cc6eae735b9c240ffbaeed884bc24ec.mesh"
+
+[deps]
+
+files=["res://.godot/imported/pie_apple_slice.obj-1cc6eae735b9c240ffbaeed884bc24ec.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/pie_apple_slice.obj"
+dest_files=["res://.godot/imported/pie_apple_slice.obj-1cc6eae735b9c240ffbaeed884bc24ec.mesh", "res://.godot/imported/pie_apple_slice.obj-1cc6eae735b9c240ffbaeed884bc24ec.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

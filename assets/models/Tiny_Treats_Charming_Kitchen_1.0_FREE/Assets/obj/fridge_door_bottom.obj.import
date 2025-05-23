@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b6rosngvuqen7"
+path="res://.godot/imported/fridge_door_bottom.obj-5982a7541e8bec9e029ba24f589d7f51.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fridge_door_bottom.obj-5982a7541e8bec9e029ba24f589d7f51.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/fridge_door_bottom.obj"
+dest_files=["res://.godot/imported/fridge_door_bottom.obj-5982a7541e8bec9e029ba24f589d7f51.mesh", "res://.godot/imported/fridge_door_bottom.obj-5982a7541e8bec9e029ba24f589d7f51.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

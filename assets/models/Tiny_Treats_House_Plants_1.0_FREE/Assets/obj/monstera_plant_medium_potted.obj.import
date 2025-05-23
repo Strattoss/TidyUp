@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bq5wq05l5mpkf"
+path="res://.godot/imported/monstera_plant_medium_potted.obj-e958a677f28eac67b8e089d576ab03ce.mesh"
+
+[deps]
+
+files=["res://.godot/imported/monstera_plant_medium_potted.obj-e958a677f28eac67b8e089d576ab03ce.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/monstera_plant_medium_potted.obj"
+dest_files=["res://.godot/imported/monstera_plant_medium_potted.obj-e958a677f28eac67b8e089d576ab03ce.mesh", "res://.godot/imported/monstera_plant_medium_potted.obj-e958a677f28eac67b8e089d576ab03ce.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

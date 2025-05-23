@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bygxqv526qso5"
+path="res://.godot/imported/wall_plain_kitchen_corner_inner.obj-24821d674fd2d9c5ff6232ed72ffe4cf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_plain_kitchen_corner_inner.obj-24821d674fd2d9c5ff6232ed72ffe4cf.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_plain_kitchen_corner_inner.obj"
+dest_files=["res://.godot/imported/wall_plain_kitchen_corner_inner.obj-24821d674fd2d9c5ff6232ed72ffe4cf.mesh", "res://.godot/imported/wall_plain_kitchen_corner_inner.obj-24821d674fd2d9c5ff6232ed72ffe4cf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

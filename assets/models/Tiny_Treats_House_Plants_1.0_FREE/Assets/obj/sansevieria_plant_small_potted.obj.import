@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bwn76c3nvuhra"
+path="res://.godot/imported/sansevieria_plant_small_potted.obj-4a9ce0522b0013bf24d45c2cac2c832b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sansevieria_plant_small_potted.obj-4a9ce0522b0013bf24d45c2cac2c832b.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/sansevieria_plant_small_potted.obj"
+dest_files=["res://.godot/imported/sansevieria_plant_small_potted.obj-4a9ce0522b0013bf24d45c2cac2c832b.mesh", "res://.godot/imported/sansevieria_plant_small_potted.obj-4a9ce0522b0013bf24d45c2cac2c832b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

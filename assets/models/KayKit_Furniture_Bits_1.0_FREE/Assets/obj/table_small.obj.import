@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://by1uyulq2mbbf"
+path="res://.godot/imported/table_small.obj-bc5eb1c88b2d55c65a4ca238f79677ef.mesh"
+
+[deps]
+
+files=["res://.godot/imported/table_small.obj-bc5eb1c88b2d55c65a4ca238f79677ef.mesh"]
+
+source_file="res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/table_small.obj"
+dest_files=["res://.godot/imported/table_small.obj-bc5eb1c88b2d55c65a4ca238f79677ef.mesh", "res://.godot/imported/table_small.obj-bc5eb1c88b2d55c65a4ca238f79677ef.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

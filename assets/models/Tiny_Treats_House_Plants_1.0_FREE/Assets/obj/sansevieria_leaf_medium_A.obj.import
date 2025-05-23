@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjgrr6gyvqu55"
+path="res://.godot/imported/sansevieria_leaf_medium_A.obj-bcc0bca60d991d6ea0d1b150d509a6fe.mesh"
+
+[deps]
+
+files=["res://.godot/imported/sansevieria_leaf_medium_A.obj-bcc0bca60d991d6ea0d1b150d509a6fe.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/sansevieria_leaf_medium_A.obj"
+dest_files=["res://.godot/imported/sansevieria_leaf_medium_A.obj-bcc0bca60d991d6ea0d1b150d509a6fe.mesh", "res://.godot/imported/sansevieria_leaf_medium_A.obj-bcc0bca60d991d6ea0d1b150d509a6fe.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

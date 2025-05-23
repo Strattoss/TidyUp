@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://fayhwvgvtpkp"
+path="res://.godot/imported/fence_rails_long.obj-c509257c4c9d2c41d3ec5cfb9af4b8e3.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fence_rails_long.obj-c509257c4c9d2c41d3ec5cfb9af4b8e3.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/fence_rails_long.obj"
+dest_files=["res://.godot/imported/fence_rails_long.obj-c509257c4c9d2c41d3ec5cfb9af4b8e3.mesh", "res://.godot/imported/fence_rails_long.obj-c509257c4c9d2c41d3ec5cfb9af4b8e3.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

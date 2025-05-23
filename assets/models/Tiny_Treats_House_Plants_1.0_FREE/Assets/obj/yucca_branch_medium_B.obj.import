@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://uugnapixs12x"
+path="res://.godot/imported/yucca_branch_medium_B.obj-85bc8349e377b928ae0674414d0a3e9c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/yucca_branch_medium_B.obj-85bc8349e377b928ae0674414d0a3e9c.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/yucca_branch_medium_B.obj"
+dest_files=["res://.godot/imported/yucca_branch_medium_B.obj-85bc8349e377b928ae0674414d0a3e9c.mesh", "res://.godot/imported/yucca_branch_medium_B.obj-85bc8349e377b928ae0674414d0a3e9c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dxlh3o8g4hucb"
+path="res://.godot/imported/bench_A.obj-7b19c0a07062d58f3498eccbacae475c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bench_A.obj-7b19c0a07062d58f3498eccbacae475c.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/bench_A.obj"
+dest_files=["res://.godot/imported/bench_A.obj-7b19c0a07062d58f3498eccbacae475c.mesh", "res://.godot/imported/bench_A.obj-7b19c0a07062d58f3498eccbacae475c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

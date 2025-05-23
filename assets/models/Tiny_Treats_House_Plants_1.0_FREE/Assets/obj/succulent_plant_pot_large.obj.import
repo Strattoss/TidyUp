@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bcv36mwbpmjk6"
+path="res://.godot/imported/succulent_plant_pot_large.obj-9220d7b278ac0e32fc6d05d84b3f2b03.mesh"
+
+[deps]
+
+files=["res://.godot/imported/succulent_plant_pot_large.obj-9220d7b278ac0e32fc6d05d84b3f2b03.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/succulent_plant_pot_large.obj"
+dest_files=["res://.godot/imported/succulent_plant_pot_large.obj-9220d7b278ac0e32fc6d05d84b3f2b03.mesh", "res://.godot/imported/succulent_plant_pot_large.obj-9220d7b278ac0e32fc6d05d84b3f2b03.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfwkfbdocda0j"
+path="res://.godot/imported/boots.obj-49098d1f8e81ad3ffc00d9e01bdb9d59.mesh"
+
+[deps]
+
+files=["res://.godot/imported/boots.obj-49098d1f8e81ad3ffc00d9e01bdb9d59.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/boots.obj"
+dest_files=["res://.godot/imported/boots.obj-49098d1f8e81ad3ffc00d9e01bdb9d59.mesh", "res://.godot/imported/boots.obj-49098d1f8e81ad3ffc00d9e01bdb9d59.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

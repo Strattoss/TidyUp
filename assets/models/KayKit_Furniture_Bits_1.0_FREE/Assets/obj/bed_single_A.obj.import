@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dqrqapwe5n7at"
+path="res://.godot/imported/bed_single_A.obj-d22d58d1c5c834d3bc42b4fc122f1282.mesh"
+
+[deps]
+
+files=["res://.godot/imported/bed_single_A.obj-d22d58d1c5c834d3bc42b4fc122f1282.mesh"]
+
+source_file="res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/bed_single_A.obj"
+dest_files=["res://.godot/imported/bed_single_A.obj-d22d58d1c5c834d3bc42b4fc122f1282.mesh", "res://.godot/imported/bed_single_A.obj-d22d58d1c5c834d3bc42b4fc122f1282.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

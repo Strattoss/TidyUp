@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfkui4q7h2g72"
+path="res://.godot/imported/fridge.obj-46e18fae61eb6c3af54a44565dddf1c6.mesh"
+
+[deps]
+
+files=["res://.godot/imported/fridge.obj-46e18fae61eb6c3af54a44565dddf1c6.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/fridge.obj"
+dest_files=["res://.godot/imported/fridge.obj-46e18fae61eb6c3af54a44565dddf1c6.mesh", "res://.godot/imported/fridge.obj-46e18fae61eb6c3af54a44565dddf1c6.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d4awde5x1ped1"
+path="res://.godot/imported/house.obj-0e345ec951972e163593841a54a70645.mesh"
+
+[deps]
+
+files=["res://.godot/imported/house.obj-0e345ec951972e163593841a54a70645.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/house.obj"
+dest_files=["res://.godot/imported/house.obj-0e345ec951972e163593841a54a70645.mesh", "res://.godot/imported/house.obj-0e345ec951972e163593841a54a70645.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

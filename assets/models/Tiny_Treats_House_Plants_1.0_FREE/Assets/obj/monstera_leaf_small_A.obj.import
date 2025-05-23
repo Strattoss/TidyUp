@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bn0vp3uijbxit"
+path="res://.godot/imported/monstera_leaf_small_A.obj-6dd3af27e3a2071bccd74140f0ddfb39.mesh"
+
+[deps]
+
+files=["res://.godot/imported/monstera_leaf_small_A.obj-6dd3af27e3a2071bccd74140f0ddfb39.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/monstera_leaf_small_A.obj"
+dest_files=["res://.godot/imported/monstera_leaf_small_A.obj-6dd3af27e3a2071bccd74140f0ddfb39.mesh", "res://.godot/imported/monstera_leaf_small_A.obj-6dd3af27e3a2071bccd74140f0ddfb39.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
