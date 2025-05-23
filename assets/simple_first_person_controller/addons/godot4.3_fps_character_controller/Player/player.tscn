@@ -22,6 +22,7 @@ InputDictionary = {
 "Right": "ui_right",
 "Sprint": "sprint"
 }
+JUMP_VELOCITY = 4.0
 Mouse_Sens = 0.15
 TiltThreshhold = 0.6
 

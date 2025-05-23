@@ -25,6 +25,9 @@ class_name Player extends CharacterBody3D
 	"Interact": "ui_accept"
 }
 
+@export_category("Jump settings")
+@export var JUMP_VELOCITY : float = 4.5
+
 @export_category("Mouse Settings")
 @export_range(0.05, 0.3) var Mouse_Sens : float = 0.09
 @export_range(1.0, 50.0) var Mouse_Smooth : float = 50.0
@@ -49,7 +52,7 @@ var Rot_Vel : Vector2 = Vector2()
 var _speed : float = Move_Speed
 var _isMouseCaptured : bool = true
 
-const JUMP_VELOCITY : float = 4.5
+
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

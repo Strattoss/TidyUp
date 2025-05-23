@@ -5,6 +5,7 @@ var curr_dialogue : String
 
 func _physics_process(delta: float) -> void:
 
+	# TODO: tidy up (XD) this if-ladder
 	if is_colliding():
 		var collider = get_collider()
 		if collider.get_parent().get_parent().has_node("Interactable"):
@@ -23,9 +24,8 @@ func _physics_process(delta: float) -> void:
 
 				elif Input.is_action_just_pressed(interactable.prompt_action):
 					interactable.interact(owner)
-				
-
-
+			elif interactable.prompt_action == "": # if no prompt_action, then not interactible
+				Prompt.text = ""
 			else:
 				Prompt.text = interactable.get_prompt()
 	else:
