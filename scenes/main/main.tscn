@@ -1,4 +1,4 @@
-[gd_scene load_steps=447 format=3 uid="uid://dmemhwlh2oy0d"]
+[gd_scene load_steps=448 format=3 uid="uid://dmemhwlh2oy0d"]
 
 [ext_resource type="PackedScene" uid="uid://c4lccs8l5darl" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player.tscn" id="1_3ua4h"]
 [ext_resource type="PackedScene" uid="uid://h6sxo70bavrg" path="res://scenes/placement_spot/placement_spot.tscn" id="2_kc82s"]
@@ -190,6 +190,7 @@
 [ext_resource type="ArrayMesh" uid="uid://dbir2lh5din4" path="res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/monstera_leaf_medium_B.obj" id="208_e0otf"]
 [ext_resource type="ArrayMesh" uid="uid://dbj8dsg5jthn3" path="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/sandwich.obj" id="208_e3ib2"]
 [ext_resource type="ArrayMesh" uid="uid://b0wkpinnaerqj" path="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/spoon.obj" id="209_7hkvj"]
+[ext_resource type="PackedScene" uid="uid://bmpgwsx4svpjy" path="res://scenes/gui/inventory_ui/inventory_ui.tscn" id="209_gwli5"]
 [ext_resource type="ArrayMesh" uid="uid://d0d184gp8tosg" path="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/thermos.obj" id="210_tplpp"]
 [ext_resource type="ArrayMesh" uid="uid://cd8vx27bno54p" path="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/thermos_lid.obj" id="211_3wsa5"]
 [ext_resource type="ArrayMesh" uid="uid://qqlletnn1cbi" path="res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/wine_bottle.obj" id="212_enob0"]
@@ -4096,3 +4097,5 @@ skeleton = NodePath("../../../..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="World/Livingroom/Furniture/Candle2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_t6wx4")
+
+[node name="InventoryUI" parent="." instance=ExtResource("209_gwli5")]

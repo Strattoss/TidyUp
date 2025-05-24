@@ -8,7 +8,7 @@ var _hasDialogue = false
 var placement_service: PlacementService
 
 func _ready() -> void:
-	placement_service = get_tree().get_root().get_node("Main").get_node("PlacementSpot").get_node("PlacementService")
+	placement_service = get_tree().get_root().get_node("Main/PlacementSpot/PlacementService")
 
 func get_prompt():
 	return prompt_text

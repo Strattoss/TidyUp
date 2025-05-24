@@ -1,0 +1,57 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmpgwsx4svpjy"]
+
+[sub_resource type="GDScript" id="GDScript_ti5y6"]
+script/source = "extends Control
+
+@onready var items_container = $Panel/ItemsContainer
+var placement_service: PlacementService
+
+func _ready():
+	placement_service = get_tree().get_root().get_node(\"Main/PlacementSpot/PlacementService\")
+	placement_service.connect(\"inventory_updated\", self._on_inventory_updated)
+	_on_inventory_updated()
+
+func _on_inventory_updated():
+	for child in items_container.get_children():
+		child.queue_free()
+	
+	for id in placement_service.stored_items:
+		var item_data = placement_service.items_database.get_item(id)
+		var item_entry = preload(\"res://scenes/gui/inventory_item/inventory_item.tscn\").instantiate()
+		print(item_data)
+		item_entry.set_item(item_data.name, load(\"res://icons/icon.png\")) # TODO: replace this placeholder
+		items_container.add_child(item_entry)
+"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a8kak"]
+bg_color = Color(0.141176, 0.141176, 0.141176, 0)
+
+[node name="InventoryUI" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = SubResource("GDScript_ti5y6")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 897.0
+offset_right = 1919.0
+offset_bottom = 1051.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_a8kak")
+
+[node name="ItemsContainer" type="HBoxContainer" parent="Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -950.0
+offset_top = -75.5
+offset_right = 937.0
+offset_bottom = 63.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20

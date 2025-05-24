@@ -19,18 +19,18 @@ func load_item_data():
 	else:
 		push_error("res://assets/items_data.json")
 
-func get_item_by_id(id: String) -> Dictionary:
+func get_item(id: String) -> Dictionary:
 	for item in item_database:
 		if item.get("id", "") == id:
 			return item
 	return {}  # or null if you prefer
 
 func get_item_name(id: String) -> String:
-	var item = get_item_by_id(id)
+	var item = get_item(id)
 	return item.get("name", "")
 
 func get_item_path(id: String) -> String:
-	var item = get_item_by_id(id)
+	var item = get_item(id)
 	# fallback to `path` if `obj_path` is not used
 	return item.get("obj_path", item.get("path", ""))
 
