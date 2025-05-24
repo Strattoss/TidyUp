@@ -1295,13 +1295,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.75, 0, -3.25)
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, 2)
 
 [node name="WallPanelledStraightBlue10" parent="World/Bedroom/FloorAndWalls" instance=ExtResource("30_36x7e")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, -2)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, -2.01698)
 
 [node name="WallPanelledStraightBlue4" parent="World/Bedroom/FloorAndWalls" instance=ExtResource("30_36x7e")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, 4)
 
 [node name="WallPanelledStraightBlue5" parent="World/Bedroom/FloorAndWalls" instance=ExtResource("30_36x7e")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, 6)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 5.95, 0, 5.98302)
 
 [node name="WallPanelledStraightBlue6" parent="World/Bedroom/FloorAndWalls" instance=ExtResource("30_36x7e")]
 transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 4.9705, 0, 6.95)
@@ -3096,11 +3096,11 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.99
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenStraight4" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("20_ehd4l")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, 5)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, 4.98302)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenStraight5" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("20_ehd4l")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, 7)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0, 6.98302)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenStraight9" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("20_ehd4l")]
@@ -3332,7 +3332,7 @@ transform = Transform3D(1.00269, 0, 0, 0, 1.00269, 0, 0, 0, 1.00269, -15, 0, 22.
 skeleton = NodePath("../../..")
 
 [node name="WallTilesKitchenDoorway2" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("24_wq8nw")]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8, 0, 3)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -8, 0, 2.98302)
 skeleton = NodePath("../../../..")
 
 [node name="WallTilesKitchenDoorway3" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("24_wq8nw")]
