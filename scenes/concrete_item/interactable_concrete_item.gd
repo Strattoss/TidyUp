@@ -17,11 +17,11 @@ func get_key():
 	return prompt_key
 
 func interact(player):
-	print("Move object ", get_parent().name, " to the placement spot")
+	print("Picked up ", get_parent().name)
 	#var placement_spot = get_tree().get_root().get_node("Main").get_node("PlacementSpot")
 	
 	#placement_spot.get_node("PlacementService").store_item(get_parent())
-	placement_service.store_item(get_parent().item_name)
+	placement_service.store_item(get_parent().item_id)
 	
 	# hide object or move it so that player cannot interact with it
 	#item.reparent(get_parent())

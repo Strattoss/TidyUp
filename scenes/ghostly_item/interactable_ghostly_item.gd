@@ -20,11 +20,11 @@ func get_key():
 func interact(player):
 	assert(_isInteractable)
 
-	if not _placement_service.take_item(get_parent().item_name):
-		print("Placement not successfull")
+	if not _placement_service.take_item(get_parent().item_id):
+		print(get_parent().item_name, " not placed. Incorrect ghostly silhouette")
 		return
 		
-	print("Placed item ", get_parent().name)
+	print("Placed ", get_parent().item_name, " on the right place")
 	_isInteractable = false
 	prompt_action = ""
 	

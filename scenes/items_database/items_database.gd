@@ -48,4 +48,4 @@ func get_all_item_names() -> Array:
 	
 
 # Drogi Gracjanie z przyszłości, zacząłeś tworzenie "bazy danych" itemów. Zmień concrete object i ghost object, żeby korzystały z tych id, a nie bezpośrednio z .obj.
-# Wtedy będzie można zaimplementować podstawianie obiektów pod werjsę duszkowe
+# Wtedy będzie można zaimplementować podstawianie obiektów pod werjse duszkowe

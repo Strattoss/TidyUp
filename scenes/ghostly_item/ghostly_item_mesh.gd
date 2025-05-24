@@ -3,8 +3,8 @@ extends MeshInstance3D
 var ghostly_material = load("res://materials/ghost_transparent.tres")
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	set_up_mesh()
+#func _ready() -> void:
+	#set_up_mesh()
 
 func set_up_mesh() -> void:
 	# set up chosen mesh
@@ -15,7 +15,7 @@ func set_up_mesh() -> void:
 	material_override = ghostly_material
 	
 	# create collider 
-	# TODO: the collidershould not collide with the player, just with the RayCast3D from the Player
+	# TODO: the collider should not collide with the player, just with the RayCast3D from the Player
 	create_multiple_convex_collisions()
 
 func set_item_mesh(mesh_to_set):
