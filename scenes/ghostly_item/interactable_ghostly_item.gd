@@ -27,4 +27,4 @@ func interact(player):
 	print("Placed ", get_parent().item_name, " on the right place")
 	_isInteractable = false
 	prompt_action = ""
-	
+	get_parent().ghostly_mesh_generator.set_ghostly_material_override(false)

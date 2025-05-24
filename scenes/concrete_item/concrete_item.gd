@@ -1,7 +1,7 @@
 extends StaticBody3D
 
 @export var item_id: String
-@onready var interactable = $Interactable
+var item_name: String
 @onready var concrete_mesh_generator = $ConcreteItemMesh
 
 var items_database: ItemsDatabase
@@ -13,7 +13,4 @@ func _ready():
 	item_mesh = load(mesh_path)
 	concrete_mesh_generator.set_up_mesh()
 
-#func interact(player):
-	#print("Concrete item interact fired")
-	#if interactable:
-		#interactable.interact(player)  # Call the interaction logic
+	item_name = items_database.get_item_name(item_id)

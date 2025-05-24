@@ -3140,7 +3140,7 @@ transform = Transform3D(-0.00388214, -0.000579071, 0.999992, -0.00146395, 0.9999
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenWindow4" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("21_4ccjs")]
-transform = Transform3D(0.999991, 0.00146172, 0.00388294, -0.00146395, 0.999999, 0.000573399, -0.0038821, -0.000579071, 0.999992, -6.99525, 0.0134344, 23.0168)
+transform = Transform3D(0.999991, 0.00146172, 0.00388294, -0.00146395, 0.999999, 0.000573399, -0.0038821, -0.000579071, 0.999992, -7, 0, 23)
 skeleton = NodePath("../../../..")
 
 [node name="WallTilesKitchenDoorway" parent="World/Livingroom/FloorAndWalls" instance=ExtResource("24_wq8nw")]
@@ -3647,7 +3647,7 @@ skeleton = NodePath("../../../..")
 shape = SubResource("ConvexPolygonShape3D_eeed1")
 
 [node name="BlindsKitchen" type="MeshInstance3D" parent="World/Livingroom/Furniture"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.5329, 2.75, 4.75)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.5329, 3.0949, 4.75)
 mesh = ExtResource("40_ygswg")
 skeleton = NodePath("../../../Kitchen/FloorAndWalls")
 
@@ -3657,7 +3657,7 @@ skeleton = NodePath("../../../Kitchen/FloorAndWalls")
 shape = SubResource("ConvexPolygonShape3D_husgl")
 
 [node name="BlindsKitchen2" type="MeshInstance3D" parent="World/Livingroom/Furniture"]
-transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.2171, 2.75, 12.5)
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.2171, 3.18379, 12.5)
 mesh = ExtResource("40_ygswg")
 skeleton = NodePath("../../../Kitchen/FloorAndWalls")
 
