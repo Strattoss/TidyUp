@@ -35,6 +35,11 @@
 		"path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/toaster.obj"
 	},
 	{
+		"id": "oven_glove",
+		"name": "Oven glove",
+		"path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/oven_glove.obj"
+	},
+	{
 		"id": "cookie",
 		"name": "Cookie",
 		"path": "res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/cookie.obj"
@@ -58,5 +63,35 @@
 		"id": "letter",
 		"name": "Letter",
 		"path": "res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/letter.obj"
+	},
+	{
+		"id": "pots",
+		"name": "Stacked pots",
+		"path": "res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/pots_stacked.obj"
+	},
+	{
+		"id": "rubicks_cube",
+		"name": "Rubicks cube",
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/rubicks_cube_B.obj"
+	},
+	{
+		"id": "pillow_yellow",
+		"name": "Yellow pillow",
+		"path": "res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/pillow_A.obj"
+	},
+	{
+		"id": "pillow_blue",
+		"name": "Blue pillow",
+		"path": "res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/pillow_B.obj"
+	},
+	{
+		"id": "keyboard",
+		"name": "Keyboard",
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/keyboard.obj"
+	},
+	{
+		"id": "mouse",
+		"name": "Mouse",
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/mouse.obj"
 	},
 ]
