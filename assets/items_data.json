@@ -5,9 +5,14 @@
 		"obj_path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/ducky.obj"
 	},
 	{
-		"id": "container_A_blue",
-		"name": "Blue container",
-		"path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/container_bathroom_A_blue.obj"
+		"id": "play_block_orange",
+		"name": "Orange play block",
+		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/play_block_orange.obj"
+	},
+	{
+		"id": "play_block_pink",
+		"name": "Pink play block",
+		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/play_block_pink.obj"
 	},
 	{
 		"id": "mirror",
@@ -15,8 +20,43 @@
 		"path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/mirror.obj"
 	},
 	{
-		"id": "plant",
-		"name": "Plant",
-		"path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/plant.obj"
+		"id": "knife",
+		"name": "Knife",
+		"path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/knife.obj"
+	},
+	{
+		"id": "cheese-A",
+		"name": "Cheese",
+		"path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/cheese_A.obj"
+	},
+	{
+		"id": "toaster",
+		"name": "Toaster",
+		"path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/toaster.obj"
+	},
+	{
+		"id": "cookie",
+		"name": "Cookie",
+		"path": "res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/cookie.obj"
+	},
+	{
+		"id": "sandwich",
+		"name": "Sandwich",
+		"path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/sandwich.obj"
+	},
+	{
+		"id": "wine_bottle",
+		"name": "Wine bottle",
+		"path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/wine_bottle.obj"
+	},
+	{
+		"id": "boots",
+		"name": "Boots",
+		"path": "res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/boots.obj"
+	},
+	{
+		"id": "letter",
+		"name": "Letter",
+		"path": "res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/letter.obj"
 	},
 ]
