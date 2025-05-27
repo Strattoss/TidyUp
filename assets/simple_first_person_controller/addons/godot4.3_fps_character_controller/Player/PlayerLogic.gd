@@ -53,11 +53,15 @@ var _speed : float = Move_Speed
 var _isMouseCaptured : bool = true
 
 
+var start_position: Vector3 # added by gracjan
+
 
 func _ready() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	ltilt.rotation.z = TiltThreshhold
 	rtilt.rotation.z = -TiltThreshhold
+	
+	start_position = global_position	# added by gracjan
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
@@ -80,6 +84,10 @@ func _process(delta: float) -> void:
 	Camera_Inp = Vector2.ZERO
 
 	camera_tilt(delta)
+	
+	# added by gracjan
+	if Input.is_action_just_pressed("reset_position"):
+		global_position = start_position
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
