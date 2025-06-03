@@ -1,4 +1,4 @@
-[gd_scene load_steps=447 format=3 uid="uid://dmemhwlh2oy0d"]
+[gd_scene load_steps=446 format=3 uid="uid://dmemhwlh2oy0d"]
 
 [ext_resource type="PackedScene" uid="uid://c4lccs8l5darl" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player.tscn" id="1_3ua4h"]
 [ext_resource type="PackedScene" uid="uid://h6sxo70bavrg" path="res://scenes/placement_spot/placement_spot.tscn" id="2_kc82s"]
@@ -328,9 +328,6 @@ points = PackedVector3Array(-1.19041, 0.0198452, 0.380952, -0.912761, 0.654762, 
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_iyfkt"]
 points = PackedVector3Array(-1.19038, 0.654762, 0.38089, -0.476268, 1.0119, 0.777778, -1.23007, 1.0119, 0.777778, -1.26976, 1.0119, -0.055474, -0.491957, 0.7, -0.0389992, -0.476268, 0.69451, 0.777778, -0.502718, 1, -0.0276991, -1.26976, 0.69451, -0.055474, -1.26976, 0.69451, 0.737975, -0.873055, 0.654762, 0.698335, -1.23007, 0.69451, 0.777778, -1.26976, 1.0119, 0.737975, -1.23007, 0.654762, 0.42053, -0.912594, 0.654762, 0.737975)
-
-[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0wbp3"]
-points = PackedVector3Array(0.10598, -0.246582, -0.177157, 0.105428, 0.206907, 0.199365, -0.107742, 0.204299, 0.196901, 0.10598, 0.246582, -0.177157, -0.123303, 0.227789, -0.174536, -0.107838, -0.2348, 0.174343, -0.108849, -0.229299, -0.191022, 0.119749, -0.220347, 0.16725, 0.125, 0.216204, -0.163834, -0.108054, 0.242869, 0.151906, -0.123315, -0.182278, 0.182379, 0.105428, -0.206907, 0.199365, 0.119257, 0.226964, 0.151458, 0.125, -0.216247, -0.163867, -0.123303, -0.227789, -0.174536, 0.111251, 0.226076, -0.188282, -0.123666, 0.213229, 0.167632, 0.125, 0.171493, 0.179138, 0.105616, -0.245719, 0.153643, -0.108887, -0.244707, -0.17578, -0.108849, 0.229299, -0.191022, 0.105616, 0.245719, 0.153643, -0.107744, -0.204301, 0.196903, 0.111251, -0.226076, -0.188282, -0.108887, 0.244707, -0.17578, 0.125, -0.171493, 0.179138, -0.108055, -0.242871, 0.151908, -0.123666, -0.213229, 0.167632, -0.107837, 0.234798, 0.174342, 0.12106, -0.230454, -0.176624, 0.105572, 0.222581, 0.191934, 0.105572, -0.222581, 0.191934)
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_qm4w7"]
 points = PackedVector3Array(0.283281, 0.889476, -0.0606625, -0.357309, 0.36812, -0.0866497, -0.356546, 0.368292, 0.0889231, 0.184332, 0.0151001, -0.0461285, 0.089598, 0.394858, 0.36176, -0.253116, 0.875349, 0.17303, -0.0605155, 0.847238, -0.30757, 0.0889193, 0.368296, -0.35653, -0.182601, 0.01337, 0.0488483, 0.361757, 0.394859, 0.0895973, 0.172715, 0.87439, 0.255004, -0.100453, 0.0151041, -0.168218, 0.305212, 0.435774, -0.208178, -0.208341, 0.368155, 0.305449, 0.102087, 0.0186323, 0.169371, -0.195684, 0.394958, -0.317848, -0.279896, 0.8742, -0.115247, -0.0742643, 0.874607, 0.296371, 0.17309, 0.875322, -0.2531, 0.304227, 0.36848, 0.20996, 0.102494, 0.0168931, -0.16759, -0.0461968, 0.0151197, 0.184323, 0.296032, 0.874118, 0.0765668, 0.357907, 0.368541, -0.0861933, -0.17173, 0.892007, -0.227085, -0.0861901, 0.368544, 0.357893, -0.307011, 0.846518, 0.0627932, -0.317869, 0.394954, -0.195626, 0.197632, 0.395099, -0.317018, -0.0866531, 0.368117, -0.357322, 0.0630497, 0.888957, 0.282948, -0.317044, 0.395094, 0.197578)
@@ -994,7 +991,7 @@ transform = Transform3D(0.686288, 0, -0.72733, 0, 1, 0, 0.72733, 0, 0.686288, -7
 item_id = "ducky"
 
 [node name="ToasterConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, -9.71695, 0.00719625, 18.2701)
+transform = Transform3D(0.455607, 0, 0.890181, 0, 1, 0, -0.890181, 0, 0.455607, -4.65671, 0.00719625, 1.42705)
 item_id = "toaster"
 
 [node name="ToasterGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1002,7 +999,7 @@ transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 
 item_id = "toaster"
 
 [node name="KnifeConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(0, 0, 1, 0, 1, 0, -1, 0, 0, -8.4638, 0.0143925, 18.145)
+transform = Transform3D(1, -4.37114e-08, -4.37114e-08, -4.37114e-08, 1.91069e-15, -1, 4.37114e-08, 1, 0, -8.4789, 0.0143925, 0.487958)
 item_id = "knife"
 
 [node name="KnifeGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1010,7 +1007,7 @@ transform = Transform3D(-0.547563, 0, 0.836764, 0, 1, 0, -0.836764, 0, -0.547563
 item_id = "knife"
 
 [node name="PlayblockPinkConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.13717, 0, 17.1076)
+transform = Transform3D(-0.513072, 0.628819, -0.584247, 0.76349, 0.645369, 0.0241248, 0.392225, -0.433689, -0.811217, -12.833, 1.17175, 11.5736)
 item_id = "play_block_pink"
 
 [node name="PlayblockPinkGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1018,7 +1015,7 @@ transform = Transform3D(0.41682, 0, 0.908989, 0, 1, 0, -0.908989, 0, 0.41682, -1
 item_id = "play_block_pink"
 
 [node name="PlayblockOrangeConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.36393, 0, 17.0929)
+transform = Transform3D(0.887075, 0, -0.461625, 0, 1, 0, 0.461625, 0, 0.887075, -15.7409, 3.20332, 3.38725)
 item_id = "play_block_orange"
 
 [node name="PlayblockOrangeGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1026,7 +1023,7 @@ transform = Transform3D(-0.672251, 0, 0.740324, 0, 1, 0, -0.740324, 0, -0.672251
 item_id = "play_block_orange"
 
 [node name="LetterConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.04732, 5.96367e-07, 17.4584)
+transform = Transform3D(0.891173, -0.453664, 1.98303e-08, 0, -4.37114e-08, -1, 0.453664, 0.891173, -3.89544e-08, -14.7973, 5.96367e-07, 5.7084)
 item_id = "letter"
 
 [node name="LetterGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1034,15 +1031,15 @@ transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -7.208
 item_id = "letter"
 
 [node name="MirrorConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1.31134e-07, 0, 1, 0, 1, 0, -1, 0, 1.31134e-07, -10.2506, 0.497387, 17.5596)
+transform = Transform3D(0.738097, -0.17593, -0.651353, 0.015757, -0.960647, 0.277326, -0.67451, -0.214957, -0.706279, -4.63596, 0.724033, -4.98341)
 item_id = "mirror"
 
 [node name="MirrorGhostly" parent="." instance=ExtResource("4_jbdex")]
-transform = Transform3D(-2.78181e-08, 0, 1, 0, 1, 0, -1, 0, -2.78181e-08, -7.7506, 2.48909, 5.93942)
+transform = Transform3D(-2.78181e-08, 0, 1, 0, 1, 0, -1, 0, -2.78181e-08, -7.7506, 2.48909, 8.23292)
 item_id = "mirror"
 
 [node name="SandwichConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -9.02765, 2.3906e-07, 17.7731)
+transform = Transform3D(0.496774, -0.0499271, -0.0268852, 0.0567057, 0.43739, 0.23553, 0, -0.237059, 0.44023, -7.66747, 2.49029, -5.0061)
 item_id = "sandwich"
 
 [node name="SandwichGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1050,7 +1047,7 @@ transform = Transform3D(0.42956, 0, -0.255886, 0, 0.5, 0, 0.255886, 0, 0.42956, 
 item_id = "sandwich"
 
 [node name="WineBottleConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, -5.87438, 0, 15.4313)
+transform = Transform3D(0.633212, -0.476413, -0.109876, 0.467019, 0.536171, 0.366625, -0.144691, -0.354332, 0.702505, -14.8277, 0.80767, 12.7054)
 item_id = "wine_bottle"
 
 [node name="WineBottleGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1058,7 +1055,7 @@ transform = Transform3D(0.387139, 0, -0.700088, 0, 0.8, 0, 0.700088, 0, 0.387139
 item_id = "wine_bottle"
 
 [node name="BootsConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.48164, -2.3906e-07, 16.8249)
+transform = Transform3D(0.983118, -0.182973, 7.99802e-09, -1.59961e-08, -4.22355e-08, 1, -0.182973, -0.983118, -4.44493e-08, -10.1189, 3.12878, 9.54723)
 item_id = "boots"
 
 [node name="BootsGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1066,7 +1063,7 @@ transform = Transform3D(-0.19521, 0, -0.980761, 0, 1, 0, 0.980761, 0, -0.19521, 
 item_id = "boots"
 
 [node name="PotsConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.25988, 2.3906e-07, 18.4883)
+transform = Transform3D(1, 0, 0, 0, -1, -1.39091e-08, 0, 1.39091e-08, -1, -11.6805, 1.76091, 11.5947)
 item_id = "pots"
 
 [node name="PotsGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1074,7 +1071,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.43936, -1.1953e-07, -3.357
 item_id = "pots"
 
 [node name="RubicksCube1Concrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.062, 2.3906e-07, 17.4466)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.7419, 1.24965, 19.348)
 item_id = "rubicks_cube"
 
 [node name="RubicksCube1Ghostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1082,7 +1079,7 @@ transform = Transform3D(0.392979, 0, -0.919547, 0, 1, 0, 0.919547, 0, 0.392979, 
 item_id = "rubicks_cube"
 
 [node name="RubicksCube2Concrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3407, 0, 16.7551)
+transform = Transform3D(0.892798, 0, -0.450457, 0, 1, 0, 0.450457, 0, 0.892798, -14.8027, 1.26468, 14.558)
 item_id = "rubicks_cube"
 
 [node name="RubicksCube2Ghostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1090,7 +1087,7 @@ transform = Transform3D(0.942449, 0, -0.33435, 0, 1, 0, 0.33435, 0, 0.942449, -3
 item_id = "rubicks_cube"
 
 [node name="BluePillowConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1898, -2.3906e-07, 18.1329)
+transform = Transform3D(0.749118, 0.662437, 0, -0.662437, 0.749118, 0, 0, 0, 1, -7.44345, 0.321096, 5.27622)
 item_id = "pillow_blue"
 
 [node name="BluePillowGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1098,7 +1095,7 @@ transform = Transform3D(0.852733, 0.519236, 0.0569225, -0.500465, 0.843356, -0.1
 item_id = "pillow_blue"
 
 [node name="YellowPillowConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.69183, 2.3906e-07, 17.7884)
+transform = Transform3D(0.962583, 0, -0.270987, 0, 1, 0, 0.270987, 0, 0.962583, -10.2525, 1.5136, -5.18873)
 item_id = "pillow_yellow"
 
 [node name="YellowPillowGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1106,7 +1103,7 @@ transform = Transform3D(0.965926, 0.183013, 0.183013, 0, 0.707107, -0.707107, -0
 item_id = "pillow_yellow"
 
 [node name="KeyboardConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.77109, -4.7812e-07, 16.7555)
+transform = Transform3D(0.980368, 0, 0.197178, 0, 1, 0, -0.197178, 0, 0.980368, -4.82437, 2.43723, 19.5341)
 item_id = "keyboard"
 
 [node name="KeyboardGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1114,7 +1111,7 @@ transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -10.49
 item_id = "keyboard"
 
 [node name="MouseConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.81294, -4.7812e-07, 16.9833)
+transform = Transform3D(0.62613, 0.39401, -0.672843, 0.728569, -0.603041, 0.324852, -0.277757, -0.693612, -0.664646, -8.38358, 0.221314, -5.00862)
 item_id = "mouse"
 
 [node name="MouseGhostly" parent="." instance=ExtResource("4_jbdex")]
@@ -1126,7 +1123,7 @@ transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, -13.84
 item_id = "oven_glove"
 
 [node name="OvenGloveConcrete" parent="." instance=ExtResource("4_q7oh6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.6664, 2.3906e-07, 17.2475)
+transform = Transform3D(0.986343, 0, -0.164703, 0, 1, 0, 0.164703, 0, 0.986343, -8.50478, 1.01321, 20.48)
 item_id = "oven_glove"
 
 [node name="World" type="Node3D" parent="."]
@@ -1823,16 +1820,6 @@ shape = SubResource("ConvexPolygonShape3D_mjt5a")
 
 [node name="CollisionShape3D5" type="CollisionShape3D" parent="World/Bedroom/Furniture/DeskBlue/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_iyfkt")
-
-[node name="BookBlue" type="MeshInstance3D" parent="World/Bedroom/Furniture"]
-transform = Transform3D(-4.37114e-08, 0, 1, -1, -4.37114e-08, -4.37114e-08, 4.37114e-08, -1, 1.91069e-15, -1.75, 3.28933, 0.48721)
-mesh = ExtResource("173_h41d4")
-skeleton = NodePath("../../../..")
-
-[node name="StaticBody3D" type="StaticBody3D" parent="World/Bedroom/Furniture/BookBlue"]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="World/Bedroom/Furniture/BookBlue/StaticBody3D"]
-shape = SubResource("ConvexPolygonShape3D_0wbp3")
 
 [node name="LampA" type="MeshInstance3D" parent="World/Bedroom/Furniture"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.13766, 1.11583, 3.33132)
@@ -3036,7 +3023,7 @@ skeleton = NodePath("../../../..")
 shape = SubResource("ConvexPolygonShape3D_way6m")
 
 [node name="CakeStrawberryCut" type="MeshInstance3D" parent="World/Kitchen/Furniture"]
-transform = Transform3D(-0.35, 0, -0.606218, 0, 0.7, 0, 0.606218, 0, -0.35, -1.9897, 1.25, 1.0583)
+transform = Transform3D(-0.234512, 0, -0.406186, 0, 0.469023, 0, 0.406186, 0, -0.234512, -2.0057, 1.25, 1.15682)
 mesh = ExtResource("204_87y2i")
 skeleton = NodePath("../../../..")
 
@@ -3895,7 +3882,7 @@ skeleton = NodePath("../../../../..")
 shape = SubResource("ConvexPolygonShape3D_sroqk")
 
 [node name="WineGlass" type="MeshInstance3D" parent="World/Livingroom/Furniture"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.21502, 1.25, 6.7158)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.21502, 1.25, 7.18415)
 mesh = ExtResource("214_wfcfv")
 skeleton = NodePath("../../../..")
 
@@ -4098,7 +4085,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_bx4ji")
 shape = SubResource("ConvexPolygonShape3D_etw6n")
 
 [node name="PictureframeLargeA" type="MeshInstance3D" parent="World/Livingroom/Furniture"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 2.5, -2.25)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1, 2.5, -4.75)
 mesh = ExtResource("222_tv4na")
 skeleton = NodePath("../../../..")
 
