@@ -1,14 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://tlaan5f0s7dw"]
+[gd_scene format=3 uid="uid://tlaan5f0s7dw"]
 
 [ext_resource type="ArrayMesh" uid="uid://qfp3a6myc1n0" path="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_tiles_kitchen_straight.obj" id="1_qj1cv"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_vftf4"]
 points = PackedVector3Array(-1, 0, -0.24942, 1, 0, -0.24942, -1, 0, 0.200658, -1, 4, -0.24942, 1, 0, 0.200658, 1, 4, -0.24942, -1, 0.0634299, 0.249405, -1, 4, 0.25058, 1, 0.0634299, 0.249405, 1, 4, 0.250531, -1, 2.15975, 0.25058, 1, 2.15975, 0.250531)
 
-[node name="WallTilesKitchenStraight" type="MeshInstance3D"]
+[node name="WallTilesKitchenStraight" type="MeshInstance3D" unique_id=824657221]
 mesh = ExtResource("1_qj1cv")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=584060395]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2130703846]
 shape = SubResource("ConvexPolygonShape3D_vftf4")

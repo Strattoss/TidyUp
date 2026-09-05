@@ -1,13 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://c4lccs8l5darl"]
+[gd_scene format=3 uid="uid://c4lccs8l5darl"]
 
-[ext_resource type="Script" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/PlayerLogic.gd" id="1_0ewp1"]
-[ext_resource type="Script" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player_inetractcast_logic.gd" id="2_dpr1a"]
+[ext_resource type="Script" uid="uid://hcxhfb61gcb4" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/PlayerLogic.gd" id="1_0ewp1"]
+[ext_resource type="Script" uid="uid://c83b8dkvhm2pu" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/player_inetractcast_logic.gd" id="2_dpr1a"]
 [ext_resource type="FontFile" uid="uid://6hflm8vkdjoo" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/Fonts/AmaticSC-Bold.ttf" id="3_8cn8c"]
 [ext_resource type="FontFile" uid="uid://h6o7nvdiwmhl" path="res://assets/simple_first_person_controller/addons/godot4.3_fps_character_controller/Player/Fonts/AmaticSC-Regular.ttf" id="4_hqw2h"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_g5alh"]
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" unique_id=2048823204]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 script = ExtResource("1_0ewp1")
 Move_Speed = 3.0
@@ -26,28 +26,28 @@ JUMP_VELOCITY = 4.0
 Mouse_Sens = 0.15
 TiltThreshhold = 0.6
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=414314456]
 shape = SubResource("CapsuleShape3D_g5alh")
 
-[node name="Head" type="Node3D" parent="."]
+[node name="Head" type="Node3D" parent="." unique_id=874761593]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 
-[node name="Camera3D" type="Camera3D" parent="Head"]
+[node name="Camera3D" type="Camera3D" parent="Head" unique_id=1071506894]
 
-[node name="PlayerInetractcast" type="RayCast3D" parent="Head" node_paths=PackedStringArray("Prompt")]
+[node name="PlayerInetractcast" type="RayCast3D" parent="Head" unique_id=989658098 node_paths=PackedStringArray("Prompt")]
 target_position = Vector3(0, 0, -2)
 script = ExtResource("2_dpr1a")
 Prompt = NodePath("../../UserInterface/InteracrLabelHolder/InteractLabel")
 
-[node name="Tilt" type="Node3D" parent="."]
+[node name="Tilt" type="Node3D" parent="." unique_id=2138235854]
 
-[node name="LTilt" type="Marker3D" parent="Tilt"]
+[node name="LTilt" type="Marker3D" parent="Tilt" unique_id=1897704547]
 
-[node name="RTilt" type="Marker3D" parent="Tilt"]
+[node name="RTilt" type="Marker3D" parent="Tilt" unique_id=791006653]
 
-[node name="UserInterface" type="CanvasLayer" parent="."]
+[node name="UserInterface" type="CanvasLayer" parent="." unique_id=2121850828]
 
-[node name="InteracrLabelHolder" type="Control" parent="UserInterface"]
+[node name="InteracrLabelHolder" type="Control" parent="UserInterface" unique_id=1657429269]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -55,8 +55,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="InteractLabel" type="RichTextLabel" parent="UserInterface/InteracrLabelHolder"]
-layout_mode = 2
+[node name="InteractLabel" type="RichTextLabel" parent="UserInterface/InteracrLabelHolder" unique_id=972312163]
+layout_mode = 0
 offset_left = 52.0
 offset_top = 342.0
 offset_right = 970.0

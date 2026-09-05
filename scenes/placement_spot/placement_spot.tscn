@@ -1,8 +1,8 @@
-[gd_scene load_steps=2 format=3 uid="uid://h6sxo70bavrg"]
+[gd_scene format=3 uid="uid://h6sxo70bavrg"]
 
-[ext_resource type="Script" path="res://scenes/placement_spot/placement_service.gd" id="1_assnw"]
+[ext_resource type="Script" uid="uid://c8dyj8pvx41vi" path="res://scenes/placement_spot/placement_service.gd" id="1_assnw"]
 
-[node name="PlacementSpot" type="Node3D"]
+[node name="PlacementSpot" type="Node3D" unique_id=937983038]
 
-[node name="PlacementService" type="Node" parent="."]
+[node name="PlacementService" type="Node" parent="." unique_id=1207576903]
 script = ExtResource("1_assnw")

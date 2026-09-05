@@ -1,14 +1,14 @@
-[gd_scene load_steps=4 format=3 uid="uid://bhgnbll1ibpir"]
+[gd_scene format=3 uid="uid://bhgnbll1ibpir"]
 
-[ext_resource type="Script" path="res://scenes/ghostly_item/ghostly_item.gd" id="1_nbx07"]
-[ext_resource type="Script" path="res://scenes/ghostly_item/ghostly_item_mesh.gd" id="2_x3er5"]
-[ext_resource type="Script" path="res://scenes/ghostly_item/interactable_ghostly_item.gd" id="3_wl116"]
+[ext_resource type="Script" uid="uid://c3n7aobtwyhxl" path="res://scenes/ghostly_item/ghostly_item.gd" id="1_nbx07"]
+[ext_resource type="Script" uid="uid://ckoxh6gilifs3" path="res://scenes/ghostly_item/ghostly_item_mesh.gd" id="2_x3er5"]
+[ext_resource type="Script" uid="uid://clj2ksoy3qnsx" path="res://scenes/ghostly_item/interactable_ghostly_item.gd" id="3_wl116"]
 
-[node name="GhostlyItem" type="StaticBody3D"]
+[node name="GhostlyItem" type="StaticBody3D" unique_id=757878640]
 script = ExtResource("1_nbx07")
 
-[node name="GhostlyItemMesh" type="MeshInstance3D" parent="."]
+[node name="GhostlyItemMesh" type="MeshInstance3D" parent="." unique_id=2120542798]
 script = ExtResource("2_x3er5")
 
-[node name="Interactable" type="Node" parent="."]
+[node name="Interactable" type="Node" parent="." unique_id=1861605450]
 script = ExtResource("3_wl116")

@@ -1,16 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://yt5v34c028kb"]
+[gd_scene format=3 uid="uid://yt5v34c028kb"]
 
 [ext_resource type="ArrayMesh" uid="uid://cqjd1qvyfjy7f" path="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/fence_straight.obj" id="1_6ksy1"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_eqwkl"]
 size = Vector3(1.49414, 1.26038, 0.308472)
 
-[node name="FenceStraight" type="MeshInstance3D"]
+[node name="FenceStraight" type="MeshInstance3D" unique_id=107758231]
 mesh = ExtResource("1_6ksy1")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1991944277]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=902044185]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.496797, 0.646683, -0.00238037)
 shape = SubResource("BoxShape3D_eqwkl")

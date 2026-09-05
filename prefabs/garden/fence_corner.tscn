@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://cgfdvpccorgmu"]
+[gd_scene format=3 uid="uid://cgfdvpccorgmu"]
 
 [ext_resource type="ArrayMesh" uid="uid://cpcbb1dq5264f" path="res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/fence_corner.obj" id="1_4u8b6"]
 
@@ -8,16 +8,16 @@ size = Vector3(2.4671, 1.26733, 0.309082)
 [sub_resource type="BoxShape3D" id="BoxShape3D_5s2u4"]
 size = Vector3(0.303284, 1.28168, 2.46545)
 
-[node name="FenceCorner" type="MeshInstance3D"]
+[node name="FenceCorner" type="MeshInstance3D" unique_id=27452170]
 mesh = ExtResource("1_4u8b6")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1880965555]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2065825603]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.02444, 0.635564, -0.000732422)
 shape = SubResource("BoxShape3D_i3xsi")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=1427944365]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00137329, 0.641275, 1.01715)
 shape = SubResource("BoxShape3D_5s2u4")

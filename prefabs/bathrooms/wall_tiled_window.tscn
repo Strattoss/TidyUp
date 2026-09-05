@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://mh1vd1h4dryj"]
+[gd_scene format=3 uid="uid://mh1vd1h4dryj"]
 
 [ext_resource type="ArrayMesh" uid="uid://ntjjk6okd7la" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/wall_tiled_window.obj" id="1_r4e2e"]
 
@@ -8,13 +8,13 @@ points = PackedVector3Array(-0.904383, 0.984046, -0.467448, 1.06349, 1.30159, 0.
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_88x7v"]
 points = PackedVector3Array(1.06349, 4.03175, 0.294451, -0.929894, 1.43456, -0.2492, 0.96164, 1.43456, -0.2492, -1.03175, 1.49238, 0.294451, -0.929894, 3.89904, -0.2492, 1.06349, 1.30185, 0.230909, -1.03175, 4.03175, 0.294451, 0.96164, 3.89904, -0.2492, 1.06349, 1.49238, 0.294451, -1.03175, 1.30185, 0.230909)
 
-[node name="WallTiledWindow" type="MeshInstance3D"]
+[node name="WallTiledWindow" type="MeshInstance3D" unique_id=1427420290]
 mesh = ExtResource("1_r4e2e")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1045772858]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2030919062]
 shape = SubResource("ConvexPolygonShape3D_2y2ed")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=207827625]
 shape = SubResource("ConvexPolygonShape3D_88x7v")

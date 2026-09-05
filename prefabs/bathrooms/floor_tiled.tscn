@@ -1,14 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://4e6gf8t4htx1"]
+[gd_scene format=3 uid="uid://4e6gf8t4htx1"]
 
 [ext_resource type="ArrayMesh" uid="uid://cxvojsjklqv4w" path="res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/floor_tiled.obj" id="1_x8i5c"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_e5awa"]
 points = PackedVector3Array(-1, -0.5, -1, -1, -0.5, 1, -1, -0.0500196, -1, 1, -0.5, -1, -1, -0.0500196, 1, 1, -0.5, 1, -0.950078, 0, -0.950078, 1, -0.0500196, -1, -0.950078, 0, 0.949883, 1, -0.0500196, 1, 0.949883, 0, -0.950078, 0.949883, 0, 0.949883)
 
-[node name="FloorTiled" type="MeshInstance3D"]
+[node name="FloorTiled" type="MeshInstance3D" unique_id=256038696]
 mesh = ExtResource("1_x8i5c")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1916570193]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2012654566]
 shape = SubResource("ConvexPolygonShape3D_e5awa")

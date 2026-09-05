@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://bp5rc384s6ig0"]
+[gd_scene format=3 uid="uid://bp5rc384s6ig0"]
 
 [ext_resource type="ArrayMesh" uid="uid://bygxqv526qso5" path="res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/wall_plain_kitchen_corner_inner.obj" id="1_7jby1"]
 
@@ -8,13 +8,13 @@ points = PackedVector3Array(0.344574, 0.025219, -0.249621, 0.289908, 4.03095, 2.
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_s0nqe"]
 points = PackedVector3Array(2.00427, 4.03095, 0.289983, 0.353475, -0.0309505, -0.281446, 2.00427, -0.0309505, -0.281446, 0.353475, 4.03095, -0.281446, 0.353475, -0.0309505, 0.226441, 2.00427, 4.03095, -0.281446, 0.353475, 4.03095, 0.289983, 2.00427, -0.0309505, 0.226441, 0.237551, 2.14468, 0.33011, 2.00427, 2.12686, 0.289983)
 
-[node name="WallPlainKitchenCornerInner" type="MeshInstance3D"]
+[node name="WallPlainKitchenCornerInner" type="MeshInstance3D" unique_id=907336007]
 mesh = ExtResource("1_7jby1")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1891392112]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1020315225]
 shape = SubResource("ConvexPolygonShape3D_yq4ih")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=352933393]
 shape = SubResource("ConvexPolygonShape3D_s0nqe")

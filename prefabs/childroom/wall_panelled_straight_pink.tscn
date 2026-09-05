@@ -1,15 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://ckjvfuapw0j5w"]
+[gd_scene format=3 uid="uid://ckjvfuapw0j5w"]
 
-[ext_resource type="ArrayMesh" uid="uid://dmph5fo1gc0n0" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/wall_panelled_straight_pink.obj" id="1_6tsm7"]
+[ext_resource type="ArrayMesh" uid="uid://c38iwpqueqxle" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_panelled_straight_pink.obj" id="1_6tsm7"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_0sogk"]
 points = PackedVector3Array(-1, 0, -0.250001, 1, 0, -0.250001, -1, 0, 0.279973, -1, 4, -0.250001, 1, 0, 0.279973, 1, 4, -0.250001, -1, 0.0199687, 0.3, -1, 4, 0.249985, 1, 0.0199687, 0.3, 1, 4, 0.249985, -1, 1.47964, 0.3, 1, 1.47964, 0.3)
 
-[node name="WallPanelledStraightPink" type="MeshInstance3D"]
+[node name="WallPanelledStraightPink" type="MeshInstance3D" unique_id=546275795]
 mesh = ExtResource("1_6tsm7")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=370866282]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=156536180]
 shape = SubResource("ConvexPolygonShape3D_0sogk")

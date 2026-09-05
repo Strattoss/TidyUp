@@ -5,11 +5,11 @@
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_lv6u0"]
 points = PackedVector3Array(-1, 0, -0.250001, 1, 0, -0.250001, -1, 0, 0.279973, -1, 4, -0.250001, 1, 0, 0.279973, 1, 4, -0.250001, -1, 0.0199687, 0.3, -1, 4, 0.249985, 1, 0.0199687, 0.3, 1, 4, 0.249985, -1, 1.47964, 0.3, 1, 1.47964, 0.3)
 
-[node name="WallPanelledStraightBlue" type="MeshInstance3D"]
+[node name="WallPanelledStraightBlue" type="MeshInstance3D" unique_id=1100372767]
 mesh = ExtResource("1_31v8f")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=253950228]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1287923362]
 shape = SubResource("ConvexPolygonShape3D_lv6u0")

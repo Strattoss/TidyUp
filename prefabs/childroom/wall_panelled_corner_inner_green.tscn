@@ -8,14 +8,14 @@ points = PackedVector3Array(0.4071, 0.0246858, -0.25, 0.289645, 4.03095, 2.00374
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_6svot"]
 points = PackedVector3Array(2.00366, 4.03095, 0.289658, 0.496016, 0.172145, -0.25, 1.92431, 0.172145, -0.25, 0.416667, -0.0309505, 0.353175, 0.416667, 4.03095, -0.281746, 2.00366, -0.0309505, 0.353175, 2.00366, 4.03095, -0.281746, 0.416667, 4.03095, 0.289658, 0.3, 1.41795, 0.39985, 2.00366, 1.49256, 0.353175)
 
-[node name="WallPanelledCornerInnerGreen" type="MeshInstance3D"]
+[node name="WallPanelledCornerInnerGreen" type="MeshInstance3D" unique_id=905613171]
 mesh = ExtResource("1_dubqx")
 skeleton = NodePath("../../../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=725139765]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1836496790]
 shape = SubResource("ConvexPolygonShape3D_ux1lc")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D"]
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StaticBody3D" unique_id=2129227403]
 shape = SubResource("ConvexPolygonShape3D_6svot")

@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://bmpgwsx4svpjy"]
+[gd_scene format=3 uid="uid://bmpgwsx4svpjy"]
 
 [sub_resource type="GDScript" id="GDScript_ti5y6"]
 script/source = "extends Control
@@ -26,14 +26,14 @@ func _on_inventory_updated():
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a8kak"]
 bg_color = Color(0.141176, 0.141176, 0.141176, 0)
 
-[node name="InventoryUI" type="Control"]
+[node name="InventoryUI" type="Control" unique_id=1890866937]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = SubResource("GDScript_ti5y6")
 
-[node name="Panel" type="Panel" parent="."]
+[node name="Panel" type="Panel" parent="." unique_id=162291548]
 layout_mode = 0
 offset_left = -1.0
 offset_top = 897.0
@@ -41,7 +41,7 @@ offset_right = 1919.0
 offset_bottom = 1051.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_a8kak")
 
-[node name="ItemsContainer" type="HBoxContainer" parent="Panel"]
+[node name="ItemsContainer" type="HBoxContainer" parent="Panel" unique_id=2121939026]
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
