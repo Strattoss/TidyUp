@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c4sc68tqry675"
+path="res://.godot/imported/desk_blue.obj-156e22431c9ed39f5092df8d195c3582.mesh"
+
+[deps]
+
+files=["res://.godot/imported/desk_blue.obj-156e22431c9ed39f5092df8d195c3582.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/desk_blue.obj"
+dest_files=["res://.godot/imported/desk_blue.obj-156e22431c9ed39f5092df8d195c3582.mesh", "res://.godot/imported/desk_blue.obj-156e22431c9ed39f5092df8d195c3582.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

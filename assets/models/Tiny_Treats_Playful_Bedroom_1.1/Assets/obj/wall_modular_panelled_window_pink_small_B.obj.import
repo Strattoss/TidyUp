@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c77fkw1tfv84j"
+path="res://.godot/imported/wall_modular_panelled_window_pink_small_B.obj-22584b320ed244fc4e99350eac3fcdfc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_modular_panelled_window_pink_small_B.obj-22584b320ed244fc4e99350eac3fcdfc.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_modular_panelled_window_pink_small_B.obj"
+dest_files=["res://.godot/imported/wall_modular_panelled_window_pink_small_B.obj-22584b320ed244fc4e99350eac3fcdfc.mesh", "res://.godot/imported/wall_modular_panelled_window_pink_small_B.obj-22584b320ed244fc4e99350eac3fcdfc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

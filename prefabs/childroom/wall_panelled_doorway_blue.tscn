@@ -1,6 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://bb8imhpvf7btm"]
+[gd_scene format=3 uid="uid://bb8imhpvf7btm"]
 
-[ext_resource type="ArrayMesh" uid="uid://biqqdeosjdchm" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/wall_panelled_doorway_blue.obj" id="1_yr3jj"]
+[ext_resource type="ArrayMesh" uid="uid://bmkf1f7psnyis" path="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_panelled_doorway_blue.obj" id="1_yr3jj"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_2kl2u"]
 points = PackedVector3Array(-1.0317, -0.0314789, -0.1547, -0.777803, 2.69841, 0.162636, -1.0317, 2.69841, 0.162636, -0.777803, -0.0314789, 0.162636, -0.777803, 2.69841, -0.1547, -1.0317, 2.69841, -0.1547, -1.0317, -0.0314789, 0.162636, -0.777803, -0.0314789, -0.1547)

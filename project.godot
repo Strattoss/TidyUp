@@ -8,12 +8,16 @@
 
 config_version=5
 
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
 [application]
 
 config/name="TidyUp"
 config/version="0.1"
 run/main_scene="res://scenes/main/main.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icons/icon.png"
 config/windows_native_icon="res://icons/ico2.ico"
 
@@ -25,6 +29,10 @@ window/size/viewport_height=1080
 [editor]
 
 movie_writer/movie_file="/home/gracjan/Projects/Studies/TechnologieGierKomputerowych/tidyup/movies/movie.avi"
+
+[filesystem]
+
+import/blender/enabled=false
 
 [input]
 

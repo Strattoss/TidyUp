@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cgncyr77i143c"
+path="res://.godot/imported/wall_panelled_corner_inner_green.obj-2952fae79a4cf03f0b66f3343dade725.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_panelled_corner_inner_green.obj-2952fae79a4cf03f0b66f3343dade725.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_panelled_corner_inner_green.obj"
+dest_files=["res://.godot/imported/wall_panelled_corner_inner_green.obj-2952fae79a4cf03f0b66f3343dade725.mesh", "res://.godot/imported/wall_panelled_corner_inner_green.obj-2952fae79a4cf03f0b66f3343dade725.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

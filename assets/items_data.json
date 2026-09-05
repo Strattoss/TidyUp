@@ -7,12 +7,12 @@
 	{
 		"id": "play_block_orange",
 		"name": "Orange play block",
-		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/play_block_orange.obj"
+		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/play_block_B.obj"
 	},
 	{
 		"id": "play_block_pink",
 		"name": "Pink play block",
-		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/play_block_pink.obj"
+		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/play_block_D.obj"
 	},
 	{
 		"id": "mirror",
@@ -72,7 +72,7 @@
 	{
 		"id": "rubicks_cube",
 		"name": "Rubicks cube",
-		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/rubicks_cube_B.obj"
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/rubicks_cube_B.obj"
 	},
 	{
 		"id": "pillow_yellow",
@@ -87,11 +87,11 @@
 	{
 		"id": "keyboard",
 		"name": "Keyboard",
-		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/keyboard.obj"
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/keyboard.obj"
 	},
 	{
 		"id": "mouse",
 		"name": "Mouse",
-		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.0/Assets/obj/mouse.obj"
+		"path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/mouse.obj"
 	},
 ]

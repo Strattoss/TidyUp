@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://r126ync7yp1n"
+path="res://.godot/imported/wall_modular_panelled_half_corner_outer_blue_A.obj-c440a654f43e433ecb96ceeb7d7e545a.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_modular_panelled_half_corner_outer_blue_A.obj-c440a654f43e433ecb96ceeb7d7e545a.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_modular_panelled_half_corner_outer_blue_A.obj"
+dest_files=["res://.godot/imported/wall_modular_panelled_half_corner_outer_blue_A.obj-c440a654f43e433ecb96ceeb7d7e545a.mesh", "res://.godot/imported/wall_modular_panelled_half_corner_outer_blue_A.obj-c440a654f43e433ecb96ceeb7d7e545a.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

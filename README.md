@@ -101,5 +101,3 @@ Here are some visuals from the current version of the game:
 ![kitchen](./docs/images/screenshot_kitchen.png)
 ![living_room](./docs/images/screenshot_livingroom.png)
 ![parents_bedroom](./docs/images/screenshot_parents_bedroom.png)
-
-

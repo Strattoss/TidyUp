@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b4xsi8j2vov12"
+path="res://.godot/imported/book_yellow.obj-2e682d691fe448c963dc2d12d3321255.mesh"
+
+[deps]
+
+files=["res://.godot/imported/book_yellow.obj-2e682d691fe448c963dc2d12d3321255.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/book_yellow.obj"
+dest_files=["res://.godot/imported/book_yellow.obj-2e682d691fe448c963dc2d12d3321255.mesh", "res://.godot/imported/book_yellow.obj-2e682d691fe448c963dc2d12d3321255.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

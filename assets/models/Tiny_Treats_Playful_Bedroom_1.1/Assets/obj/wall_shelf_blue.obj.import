@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ci4t4atoxtwm7"
+path="res://.godot/imported/wall_shelf_blue.obj-8a27d8fa45a0bd2ee7c5a2ef9e68d6fc.mesh"
+
+[deps]
+
+files=["res://.godot/imported/wall_shelf_blue.obj-8a27d8fa45a0bd2ee7c5a2ef9e68d6fc.mesh"]
+
+source_file="res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/wall_shelf_blue.obj"
+dest_files=["res://.godot/imported/wall_shelf_blue.obj-8a27d8fa45a0bd2ee7c5a2ef9e68d6fc.mesh", "res://.godot/imported/wall_shelf_blue.obj-8a27d8fa45a0bd2ee7c5a2ef9e68d6fc.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
