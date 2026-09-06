@@ -1,116 +1,116 @@
 [
 	{
 		"id": "ducky",
-		"name": "Rubber ducky",
+		"name": "Ducky",
 		"obj_path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/ducky.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/ducky.png"
 	},
 	{
 		"id": "play_block_orange",
 		"name": "Orange play block",
 		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/play_block_B.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/play_block_orange.png"
 	},
 	{
 		"id": "play_block_pink",
 		"name": "Pink play block",
 		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/play_block_D.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/play_block_pink.png"
 	},
 	{
 		"id": "mirror",
 		"name": "Mirror",
 		"obj_path": "res://assets/models/Tiny_Treats_Bubbly_Bathroom_1.0_FREE/Assets/obj/mirror.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/mirror.png"
 	},
 	{
 		"id": "knife",
 		"name": "Knife",
 		"obj_path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/knife.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/knife.png"
 	},
 	{
 		"id": "cheese-A",
 		"name": "Cheese",
 		"obj_path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/cheese_A.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/cheese_A.png"
 	},
 	{
 		"id": "toaster",
 		"name": "Toaster",
 		"obj_path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/toaster.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/toaster.png"
 	},
 	{
 		"id": "oven_glove",
 		"name": "Oven glove",
 		"obj_path": "res://assets/models/Tiny_Treats_Charming_Kitchen_1.0_FREE/Assets/obj/oven_glove.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/oven_glove.png"
 	},
 	{
 		"id": "cookie",
 		"name": "Cookie",
 		"obj_path": "res://assets/models/Tiny_Treats_Baked_Goods_1.0_FREE/Assets/obj/cookie.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/cookie.png"
 	},
 	{
 		"id": "sandwich",
-		"name": "Sandwich",
+		"name": "Exquisite sandwich",
 		"obj_path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/sandwich.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/sandwich.png"
 	},
 	{
 		"id": "wine_bottle",
 		"name": "Wine bottle",
 		"obj_path": "res://assets/models/Tiny_Treats_Pleasant_Picnic_1.0_FREE/Assets/obj/wine_bottle.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/wine_bottle.png"
 	},
 	{
 		"id": "boots",
 		"name": "Boots",
 		"obj_path": "res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/boots.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/boots.png"
 	},
 	{
 		"id": "letter",
 		"name": "Letter",
 		"obj_path": "res://assets/models/Tiny_Treats_Homely_House_1.0_FREE/Assets/obj/letter.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/letter.png"
 	},
 	{
 		"id": "pots",
 		"name": "Stacked pots",
 		"obj_path": "res://assets/models/Tiny_Treats_House_Plants_1.0_FREE/Assets/obj/pots_stacked.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/pots.png"
 	},
 	{
-		"id": "rubicks_cube",
-		"name": "Rubicks cube",
+		"id": "rubiks_cube",
+		"name": "Rubik's cube",
 		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/rubicks_cube_B.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/rubiks_cube.png"
 	},
 	{
 		"id": "pillow_yellow",
 		"name": "Yellow pillow",
 		"obj_path": "res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/pillow_A.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/pillow_yellow.png"
 	},
 	{
 		"id": "pillow_blue",
 		"name": "Blue pillow",
 		"obj_path": "res://assets/models/KayKit_Furniture_Bits_1.0_FREE/Assets/obj/pillow_B.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/pillow_blue.png"
 	},
 	{
 		"id": "keyboard",
 		"name": "Keyboard",
 		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/keyboard.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/keyboard.png"
 	},
 	{
 		"id": "mouse",
 		"name": "Mouse",
 		"obj_path": "res://assets/models/Tiny_Treats_Playful_Bedroom_1.1/Assets/obj/mouse.obj",
-		"icon_path": "res://icons/items/item_placeholder.png"
+		"icon_path": "res://icons/items/computer_mouse.png"
 	},
 ]
