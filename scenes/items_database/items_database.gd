@@ -21,8 +21,9 @@ func load_item_data():
 
 func get_item(id: String) -> Dictionary:
 	for item in item_database:
-		if item.get("id", "") == id:
+		if item.get("id") == id:
 			return item
+	push_error("No item with id", id, "exists")
 	return {}  # or null if you prefer
 
 func get_item_name(id: String) -> String:

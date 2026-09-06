@@ -15,5 +15,5 @@ func _on_inventory_updated():
 	for id in placement_service.stored_items:
 		var item_data = placement_service.items_database.get_item(id)
 		var item_entry = preload("res://scenes/gui/inventory_item/inventory_item.tscn").instantiate()
-		item_entry.set_item(item_data.name, "res://scenes/gui/new_mesh_texture.tres") # assuming item_data has name & icon
+		item_entry.set_item(item_data.name, load(item_data.icon_path))
 		items_container.add_child(item_entry)
