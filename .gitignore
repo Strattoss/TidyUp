@@ -4,4 +4,5 @@
 
 # Text editors' swap files
 **/*.kate-swp
+**/*.swp
 **/*.un~

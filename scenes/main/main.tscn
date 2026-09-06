@@ -3171,10 +3171,6 @@ skeleton = NodePath("../../../..")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 0, 23.75)
 skeleton = NodePath("../../../..")
 
-[node name="WallPlainKitchenStraight24" parent="World/Livingroom/FloorAndWalls" unique_id=191654076 instance=ExtResource("20_ehd4l")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.9956, 0.0106535, 21.0107)
-skeleton = NodePath("../../../..")
-
 [node name="WallPlainKitchenStraight26" parent="World/Livingroom/FloorAndWalls" unique_id=1987007661 instance=ExtResource("20_ehd4l")]
 transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -16, 0, 21)
 skeleton = NodePath("../../../..")
@@ -3208,15 +3204,15 @@ transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -8, 0,
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenStraight11" parent="World/Livingroom/FloorAndWalls" unique_id=104359599 instance=ExtResource("20_ehd4l")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4.02)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -4)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenStraight12" parent="World/Livingroom/FloorAndWalls" unique_id=600365538 instance=ExtResource("20_ehd4l")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -8, 0, -4)
+transform = Transform3D(1, 0, 1.7484558e-07, 0, 1, 0, -1.7484558e-07, 0, 1, -8, 0, -4)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenWindow" parent="World/Livingroom/FloorAndWalls" unique_id=264587057 instance=ExtResource("21_4ccjs")]
-transform = Transform3D(0.999991, 0.00146172, 0.00388294, -0.00146395, 0.999999, 0.000573399, -0.00388209, -0.000579071, 0.999992, -13, 0, 23.75)
+transform = Transform3D(0.9999996, 0, 0, 0, 1.0000002, 0, 0, 0, 0.9999997, -13, 0, 23.75)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenWindow3" parent="World/Livingroom/FloorAndWalls" unique_id=832127223 instance=ExtResource("21_4ccjs")]
@@ -3224,11 +3220,11 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -16,
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenWindow2" parent="World/Livingroom/FloorAndWalls" unique_id=893490035 instance=ExtResource("21_4ccjs")]
-transform = Transform3D(-0.00388214, -0.000579071, 0.999992, -0.00146395, 0.999999, 0.000573399, -0.999991, -0.00146172, -0.00388298, -4, 0, 15)
+transform = Transform3D(-4.371137e-08, 0, 0.9999997, 0, 1.0000002, 0, -0.9999996, 0, -4.3711374e-08, -4, 0, 15)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenWindow4" parent="World/Livingroom/FloorAndWalls" unique_id=353461983 instance=ExtResource("21_4ccjs")]
-transform = Transform3D(0.999991, 0.00146172, 0.00388294, -0.00146395, 0.999999, 0.000573399, -0.0038821, -0.000579071, 0.999992, -7, 0, 23)
+transform = Transform3D(0.9999996, 0, 0, 0, 1.0000002, 0, 0, 0, 0.9999997, -7, 0, 23)
 skeleton = NodePath("../../../..")
 
 [node name="WallTilesKitchenDoorway" parent="World/Livingroom/FloorAndWalls" unique_id=2124718387 instance=ExtResource("24_wq8nw")]
@@ -3236,7 +3232,7 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4, 0,
 skeleton = NodePath("../../../..")
 
 [node name="WallTilesKitchenDoorway4" parent="World/Livingroom/FloorAndWalls" unique_id=750209665 instance=ExtResource("24_wq8nw")]
-transform = Transform3D(-4.41485e-08, 0, 1.01, 0, 1.01, 0, -1.01, 0, -4.41485e-08, -4, 0, -1)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4, 0, -1)
 skeleton = NodePath("../../../..")
 
 [node name="WallTilesKitchenDoorwayWallTilesKitchenDoor" parent="World/Livingroom/FloorAndWalls" unique_id=720261521 instance=ExtResource("25_5eukl")]
@@ -3437,7 +3433,7 @@ skeleton = NodePath("../../../..")
 surface_material_override/0 = SubResource("StandardMaterial3D_6pdm1")
 
 [node name="WallPlainKitchenCornerOuter2" parent="World/Livingroom/FloorAndWalls" unique_id=1441639647 instance=ExtResource("19_cid61")]
-transform = Transform3D(-0.00267298, 0.0014799, 0.999995, 0.00196241, 0.999997, -0.00147464, -0.999994, 0.00195844, -0.00267589, -16, 0, 23.75)
+transform = Transform3D(-4.3711363e-08, 0, 0.99999964, 0, 1, 0, -0.99999946, 0, -4.3711374e-08, -16, 0, 23.75)
 skeleton = NodePath("../../../..")
 
 [node name="WallPlainKitchenCornerOuter4" parent="World/Livingroom/FloorAndWalls" unique_id=1035476633 instance=ExtResource("19_cid61")]
